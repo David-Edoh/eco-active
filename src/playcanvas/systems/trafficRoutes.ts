@@ -2,6 +2,37 @@ import type { District } from "../types";
 
 export type TrafficPoint = readonly [number, number];
 
+/** Shortest signed angular distance, including the -180/180 seam. */
+export function trafficAngleDelta(from: number, to: number) {
+  return ((((to - from + 540) % 360) + 360) % 360) - 180;
+}
+
+function segmentHeading(from: TrafficPoint, to: TrafficPoint) {
+  return (Math.atan2(to[0] - from[0], to[1] - from[1]) * 180) / Math.PI;
+}
+
+/** Interpolate vertex tangents instead of snapping to each polyline segment. */
+export function trafficHeading(
+  route: readonly TrafficPoint[],
+  waypoint: number,
+  progress: number,
+) {
+  const count = route.length;
+  const previous = route[(waypoint + count - 1) % count];
+  const a = route[waypoint];
+  const b = route[(waypoint + 1) % count];
+  const next = route[(waypoint + 2) % count];
+  const current = segmentHeading(a, b);
+  const start =
+    current + trafficAngleDelta(current, segmentHeading(previous, a)) / 2;
+  const end = current + trafficAngleDelta(current, segmentHeading(b, next)) / 2;
+  const t = Math.min(
+    1,
+    Math.max(0, progress / Math.hypot(b[0] - a[0], b[1] - a[1])),
+  );
+  return start + trafficAngleDelta(start, end) * t;
+}
+
 /** Closed road-network walks, with opposite directions on separate lane offsets. */
 export function createTrafficRoutes(
   roads: District["roads"],

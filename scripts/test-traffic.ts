@@ -3,6 +3,8 @@ import { readFileSync } from "node:fs";
 import {
   createTrafficRoutes,
   advanceTraffic,
+  trafficHeading,
+  trafficAngleDelta,
 } from "../src/playcanvas/systems/trafficRoutes";
 import type { District } from "../src/playcanvas/types";
 const district: District = JSON.parse(
@@ -34,6 +36,22 @@ for (const roads of [
       const segment = Math.hypot(b[0] - a[0], b[1] - a[1]);
       assert(segment > 0, "No degenerate segments");
       length += segment;
+      const endHeading = trafficHeading(route, i, segment);
+      const nextHeading = trafficHeading(route, (i + 1) % route.length, 0);
+      assert(
+        Math.abs(trafficAngleDelta(endHeading, nextHeading)) < 1e-8,
+        "Heading must stay continuous at every waypoint, including loop closure",
+      );
+      const epsilon = Math.min(1e-5, segment / 100);
+      assert(
+        Math.abs(
+          trafficAngleDelta(
+            trafficHeading(route, i, segment - epsilon),
+            nextHeading,
+          ),
+        ) < 0.01,
+        "No heading snap approaching a waypoint",
+      );
     }
     const position = () => {
       const a = route[state.waypoint],
@@ -60,3 +78,7 @@ for (const roads of [
   );
 }
 assert.deepEqual(createTrafficRoutes([]), []);
+
+assert.equal(trafficAngleDelta(179, -179), 2);
+assert.equal(trafficAngleDelta(-179, 179), -2);
+console.log("Verified continuous turn headings and shortest-angle wrap");

@@ -17,6 +17,8 @@ import type { District } from "../types";
 import {
   createTrafficRoutes,
   advanceTraffic,
+  trafficHeading,
+  trafficAngleDelta,
   type TrafficPoint,
 } from "./trafficRoutes";
 import { AssetLibrary } from "../utils/assetLoader";
@@ -25,6 +27,9 @@ class TrafficBatch {
     entity: GameEntity;
     route: TrafficPoint[];
     pending: number;
+    displayX: number;
+    displayZ: number;
+    displayYaw: number;
   }[] = [];
   private template: Entity;
   private root = new Entity("Instanced traffic");
@@ -122,14 +127,23 @@ class TrafficBatch {
         vehicleModel: model,
         position: { x: point[0], y: 0.19, z: point[1] },
         navigation,
+        yaw: trafficHeading(route, navigation.waypoint, 0),
       });
-      this.cars.push({ entity, route, pending: 0 });
+      this.cars.push({
+        entity,
+        route,
+        pending: 0,
+        displayX: point[0],
+        displayZ: point[1],
+        displayYaw: entity.yaw!,
+      });
     }
   }
 
   update(dt: number, x: number, z: number) {
     this.elapsed += dt;
     const distantTick = this.elapsed > 0.2;
+    const blend = -Math.expm1(-12 * dt);
     let visible = 0;
     let minX = Infinity,
       minZ = Infinity,
@@ -151,17 +165,28 @@ class TrafficBatch {
         const t = navigation.progress / Math.hypot(dx, dz);
         p.x = a[0] + dx * t;
         p.z = a[1] + dz * t;
-        car.entity.yaw = (Math.atan2(dx, dz) * 180) / Math.PI;
+        car.entity.yaw = trafficHeading(
+          car.route,
+          navigation.waypoint,
+          navigation.progress,
+        );
       }
+      // Presentation only: ECS/navigation remain authoritative at their existing budgets.
+      // Exponential easing is frame-rate independent and cannot overshoot a target.
+      car.displayX += (p.x - car.displayX) * blend;
+      car.displayZ += (p.z - car.displayZ) * blend;
+      car.displayYaw +=
+        trafficAngleDelta(car.displayYaw, car.entity.yaw!) * blend;
+      car.displayYaw = trafficAngleDelta(0, car.displayYaw);
       if (distance < 100) {
-        minX = Math.min(minX, p.x);
-        minZ = Math.min(minZ, p.z);
-        maxX = Math.max(maxX, p.x);
-        maxZ = Math.max(maxZ, p.z);
-        this.position.set(p.x, 0.19, p.z);
+        minX = Math.min(minX, car.displayX);
+        minZ = Math.min(minZ, car.displayZ);
+        maxX = Math.max(maxX, car.displayX);
+        maxZ = Math.max(maxZ, car.displayZ);
+        this.position.set(car.displayX, 0.19, car.displayZ);
         this.rotation.setFromEulerAngles(
           0,
-          (car.entity.yaw ?? 0) + this.headingOffset,
+          car.displayYaw + this.headingOffset,
           0,
         );
         this.matrix.setTRS(this.position, this.rotation, this.scale);

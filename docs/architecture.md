@@ -446,3 +446,24 @@ The supplied afternoon HDR panorama and all original asset textures remain in us
 The racing screenshot informs colour and light balance, not replacement geometry
 or an exact match to its sky/art assets. See `docs/performance/colour-grade-validation.md`
 for captured views, software-renderer limitations and reproduction commands.
+
+## Continuous traffic facing
+
+`trafficRoutes.trafficHeading` interpolates the bisected incoming/outgoing
+headings at each route vertex using shortest-angle differences. The outgoing
+heading of one segment equals the incoming heading of the next, including the
+closed-route seam; cars no longer snap to a different segment heading on arrival.
+Route distances and ECS navigation/positions keep their existing authority.
+`TrafficBatch` keeps presentation-only position/yaw scalars and eases instance
+transforms toward ECS poses with a frame-rate-independent exponential response
+(12/s). This also softens the distant 5Hz updates without increasing the simulation
+rate. Culling bounds use the displayed positions. Shared model heading offsets,
+24-car budget, 55m simulation threshold and 100m visibility cutoff are unchanged.
+Display poses add a small visual following delay (about 83ms response time);
+they never feed back into navigation or the multiplayer service.
+
+`node --import tsx scripts/test-traffic.ts` checks route continuity and tangent
+continuity for ordinary routes, wide-road bus routes and dead ends.
+`node scripts/test-traffic-turns-browser.mjs` checks actual GPU instance matrices
+under deterministic simulation steps and records a separate screenshot/telemetry
+observation. See `docs/performance/traffic-turns-validation.md` for conditions.

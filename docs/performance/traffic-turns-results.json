@@ -1,0 +1,32 @@
+{
+  "hardware": "Apple M2",
+  "viewport": {
+    "width": 1000,
+    "height": 700
+  },
+  "quality": "performance",
+  "browser": "156.0.8078.4",
+  "notes": "Headless Chrome. 2400 deterministic 1/60-second simulation updates exercise instance transforms; telemetry is a separate software-rendered observation, not a native GPU benchmark.",
+  "comparisons": 13863,
+  "turningFrames": 2714,
+  "maxStep": 5.424215573860238,
+  "maxPositionStep": 0.16971026562638392,
+  "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+  "telemetry": {
+    "fps": 5,
+    "frameMs": 192.2,
+    "drawCalls": 189,
+    "shadowCalls": 0,
+    "forwardCalls": 188,
+    "triangles": 457915,
+    "chunks": 12,
+    "entities": 49,
+    "resolution": 0.65,
+    "players": 1,
+    "network": "offline",
+    "x": -18,
+    "z": 24,
+    "heading": 0.25
+  },
+  "errors": []
+}
