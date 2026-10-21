@@ -17,8 +17,15 @@
 /.next/
 /out/
 
+# turbopack
+/.turbo/
+
 # production
 /build
+
+# 3D editor backups
+*.blend1
+*.blend2
 
 # misc
 .DS_Store

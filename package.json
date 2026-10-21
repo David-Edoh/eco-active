@@ -9,9 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "miniplex": "^2.0.0",
     "next": "16.4.2",
+    "playcanvas": "^2.23.3",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
