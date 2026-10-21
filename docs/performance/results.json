@@ -1,0 +1,110 @@
+{
+  "testedAt": "2026-10-21T05:22:51.533Z",
+  "browser": "156.0.8078.4",
+  "platform": "darwin",
+  "cpu": "Apple M2",
+  "notes": "Headless Chrome on this host. Mobile viewport/touch emulation is not a physical-phone benchmark.",
+  "desktop": {
+    "label": "1440 × 900 adaptive",
+    "fps": 7,
+    "frameMs": 143.3,
+    "drawCalls": 178,
+    "shadowCalls": 67,
+    "forwardCalls": 111,
+    "triangles": 503404,
+    "chunks": 12,
+    "entities": 16,
+    "resolution": 0.6,
+    "players": 1,
+    "network": "online",
+    "x": -18,
+    "z": 24,
+    "heading": 0.25,
+    "rafMeanMs": 154.79627118644066,
+    "rafP95Ms": 200,
+    "loadedChunks": [
+      "-1_-1",
+      "-1_0",
+      "0_0",
+      "-1_1",
+      "-2_0",
+      "0_-1",
+      "-1_-2",
+      "0_1",
+      "-2_-1",
+      "-2_1",
+      "1_0",
+      "1_-1"
+    ]
+  },
+  "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+  "movement": {
+    "before": [
+      -18,
+      24
+    ],
+    "after": [
+      -16.759792100210376,
+      23.683322932154198
+    ]
+  },
+  "multiplayer": {
+    "players": 2,
+    "peerPosition": [
+      -17.224870062631485,
+      23.802076832596374
+    ],
+    "renderedRemote": [
+      -18,
+      24
+    ],
+    "disconnectPassed": true
+  },
+  "mobile": {
+    "label": "412 × 915 mobile emulation / performance",
+    "fps": 13,
+    "frameMs": 76.9,
+    "drawCalls": 111,
+    "shadowCalls": 0,
+    "forwardCalls": 111,
+    "triangles": 275281,
+    "chunks": 12,
+    "entities": 16,
+    "resolution": 0.65,
+    "players": 1,
+    "network": "online",
+    "x": -18,
+    "z": 24,
+    "heading": 0.25,
+    "rafMeanMs": 79.20610169491525,
+    "rafP95Ms": 83.40000000000146,
+    "loadedChunks": [
+      "-1_0",
+      "0_0",
+      "-1_-1",
+      "0_-1",
+      "-2_0",
+      "-1_1",
+      "-1_-2",
+      "0_1",
+      "-2_1",
+      "1_0",
+      "-2_-1",
+      "1_-1"
+    ]
+  },
+  "touch": {
+    "passed": true,
+    "before": [
+      -18,
+      24
+    ],
+    "after": [
+      -15.001471031758634,
+      23.234349852412333
+    ]
+  },
+  "passed": true,
+  "errors": [],
+  "failedRequests": []
+}

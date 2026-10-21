@@ -1,0 +1,72 @@
+{
+  "source": "User-supplied Hide and Seek Unity project",
+  "models": {
+    "vendor-pos-umbrella": {
+      "source": "Assets/Models/pos_umbrella.fbx",
+      "texture": "Assets/Models/Textures/texture_pbr_20250901 3.png",
+      "size": [
+        2.2859385013580322,
+        2.7999998837783977,
+        2.2531259059906006
+      ],
+      "triangles": 4184,
+      "bytes": 182392
+    },
+    "vendor-shop-1": {
+      "source": "Assets/Models/shop_1.fbx",
+      "texture": "Assets/Models/Textures/texture_pbr_20250901 4.png",
+      "size": [
+        4.5278849601745605,
+        2.599999904677511,
+        2.4761863946914673
+      ],
+      "triangles": 7181,
+      "bytes": 376152
+    },
+    "vendor-shop-2": {
+      "source": "Assets/Models/shop_2.fbx",
+      "texture": "Assets/Models/Textures/texture_pbr_20250901 5.png",
+      "size": [
+        3.1129177808761597,
+        2.7999999522395553,
+        2.056312084197998
+      ],
+      "triangles": 21794,
+      "bytes": 869380
+    },
+    "vendor-shop-3": {
+      "source": "Assets/Models/shop_3.fbx",
+      "texture": "Assets/Models/Textures/texture_pbr_20250901 6.png",
+      "size": [
+        2.817354440689087,
+        2.699999809193296,
+        2.802676558494568
+      ],
+      "triangles": 7645,
+      "bytes": 442956
+    },
+    "vendor-shop-4": {
+      "source": "Assets/Models/shop_4.fbx",
+      "texture": "Assets/Models/Textures/texture_pbr_20250901 7.png",
+      "size": [
+        4.652714729309082,
+        2.549999707151187,
+        3.307790994644165
+      ],
+      "triangles": 8742,
+      "bytes": 501856
+    },
+    "vendor-food-vendor": {
+      "source": "Assets/Models/food_vendor.fbx",
+      "texture": "Assets/Models/Textures/texture_pbr_20250901 1.png",
+      "size": [
+        4.146905183792114,
+        2.499999610416083,
+        3.2166978120803833
+      ],
+      "triangles": 17200,
+      "bytes": 838788
+    }
+  },
+  "conversion": "Original meshes merged by shared source albedo, ground-centred and scaled to estimated street-stall dimensions. Eight-ray local vertex AO baked offline. Albedo capped at 1024px and encoded as opaque WebP; no KTX2 or GPU texture compression. Texture assignments resolved from Unity importer GUIDs. Models are static scenery; no Unity scripts imported. No separate asset-specific license in the supplied model folders; project README preserved in hide-and-seek-platformer-readme.txt."
+}

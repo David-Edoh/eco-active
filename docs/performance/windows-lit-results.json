@@ -1,0 +1,237 @@
+{
+  "hardware": "Apple M2",
+  "notes": "Chrome SwiftShader software rendering. Mobile viewport emulation, not a physical phone.",
+  "views": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "auto",
+      "windows": [
+        {
+          "name": "building:office-ivory:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:cbn-glass:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:commercial-ochre:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:commercial-weathered:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:commercial-cream:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:trinity:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:market-grey:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:market-ochre:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:office-sand:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "telemetry": {
+        "fps": 3,
+        "frameMs": 376.5,
+        "drawCalls": 277,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 1,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "quality": "performance",
+      "windows": [
+        {
+          "name": "building:office-ivory:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:cbn-glass:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:commercial-ochre:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:commercial-weathered:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:commercial-cream:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:trinity:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:market-grey:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:market-ochre:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "building:office-sand:WindowAtlas",
+          "map": true,
+          "intensity": 1,
+          "color": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "telemetry": {
+        "fps": 7,
+        "frameMs": 153,
+        "drawCalls": 88,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.65,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "errors": []
+    }
+  ],
+  "passed": true
+}

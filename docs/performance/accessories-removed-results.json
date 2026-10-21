@@ -1,0 +1,57 @@
+{
+  "hardware": "Apple M2",
+  "notes": "Chrome SwiftShader software rendering. Mobile viewport emulation, not a physical phone.",
+  "views": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "auto",
+      "remaining": 0,
+      "live": 0,
+      "telemetry": {
+        "fps": 2,
+        "frameMs": 429.8,
+        "drawCalls": 274,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.9,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "quality": "performance",
+      "remaining": 0,
+      "live": 0,
+      "telemetry": {
+        "fps": 6,
+        "frameMs": 170.3,
+        "drawCalls": 103,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.65,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "errors": []
+    }
+  ],
+  "passed": true
+}

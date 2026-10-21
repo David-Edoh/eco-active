@@ -1,0 +1,181 @@
+{
+  "hardware": "Apple M2",
+  "notes": "Headless Chrome; record software GPU below. Mobile is emulation, not physical phone performance.",
+  "views": [
+    {
+      "name": "square-north",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "auto",
+      "missing": [],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "distantCells": 53,
+      "backdrop": 140,
+      "telemetry": {
+        "fps": 2,
+        "frameMs": 480.3,
+        "drawCalls": 277,
+        "shadowCalls": 74,
+        "forwardCalls": 203,
+        "triangles": 577502,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 1,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "errors": []
+    },
+    {
+      "name": "north",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "auto",
+      "missing": [],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "distantCells": 53,
+      "backdrop": 140,
+      "telemetry": {
+        "fps": 2,
+        "frameMs": 457.1,
+        "drawCalls": 260,
+        "shadowCalls": 74,
+        "forwardCalls": 186,
+        "triangles": 548908,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.9,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "errors": []
+    },
+    {
+      "name": "east",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "auto",
+      "missing": [],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "distantCells": 53,
+      "backdrop": 140,
+      "telemetry": {
+        "fps": 3,
+        "frameMs": 340.3,
+        "drawCalls": 56,
+        "shadowCalls": 8,
+        "forwardCalls": 48,
+        "triangles": 61794,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.9,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "errors": []
+    },
+    {
+      "name": "south",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "auto",
+      "missing": [],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "distantCells": 53,
+      "backdrop": 140,
+      "telemetry": {
+        "fps": 3,
+        "frameMs": 308.8,
+        "drawCalls": 56,
+        "shadowCalls": 8,
+        "forwardCalls": 48,
+        "triangles": 61794,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.8,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "errors": []
+    },
+    {
+      "name": "west",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "auto",
+      "missing": [],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "distantCells": 53,
+      "backdrop": 140,
+      "telemetry": {
+        "fps": 4,
+        "frameMs": 262.9,
+        "drawCalls": 81,
+        "shadowCalls": 19,
+        "forwardCalls": 62,
+        "triangles": 110866,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.8,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "errors": []
+    },
+    {
+      "name": "mobile-south",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "quality": "performance",
+      "missing": [],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "distantCells": 53,
+      "backdrop": 140,
+      "telemetry": {
+        "fps": 6,
+        "frameMs": 164.2,
+        "drawCalls": 18,
+        "shadowCalls": 0,
+        "forwardCalls": 18,
+        "triangles": 12670,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.65,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "errors": []
+    }
+  ],
+  "passed": true
+}

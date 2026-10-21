@@ -1,0 +1,15 @@
+https://www.sqlite.org/ (License: https://www.sqlite.org/copyright.html)
+
+https://github.com/praeclarum/sqlite-net (License: MIT License)
+
+https://github.com/needle-mirror/com.unity.textmeshpro (License: Unity Companion License for Unity-dependent projects)
+
+https://github.com/vis2k/Mirror (License: MIT License)
+
+https://github.com/jbevain/cecil (License: MIT License)
+
+https://assetstore.unity.com/packages/tools/animation/leantween-3595 (License: Standard Unity Asset Store EULA)
+
+https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526 (License: Unity Companion License)
+
+https://github.com/Unity-Technologies/NavMeshComponents (License: MIT License)

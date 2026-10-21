@@ -1,0 +1,35 @@
+{
+  "source": "User-supplied Hide and Seek Unity project",
+  "conversion": "Original skinned meshes and albedo atlases; textures capped at 1024px. Existing StarterAssets locomotion retargeted at 30 Hz, including separate accessory skeletons. Mixamo bone prefixes normalized, skin weights normalized to the supported four influences. Body/hair material groups preserved; hair uses alpha cutout at runtime. Runtime uses only local converted files.",
+  "notices": "Platformer Project README preserved. No separate character-specific license found beside these assets.",
+  "characters": [
+    {
+      "id": "jarvis",
+      "label": "Jarvis",
+      "model": "Assets/PLAYER TWO/Platformer Project/Examples/Models/jarvis.fbx",
+      "texture": "Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/jarvis/texture_pbr_20250901.png",
+      "height": 1.75,
+      "bytes": 496420,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Jump"
+      ]
+    },
+    {
+      "id": "adebayo",
+      "label": "Adebayo",
+      "model": "Assets/PLAYER TWO/Platformer Project/Examples/Models/adebayo.fbx",
+      "texture": "Assets/PLAYER TWO/Platformer Project/Examples/Textures/Models/adebayo/Ch12_1001_Diffuse.png",
+      "height": 1.8,
+      "bytes": 2782764,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Jump"
+      ]
+    }
+  ]
+}

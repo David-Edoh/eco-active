@@ -1,0 +1,2266 @@
+{
+  "hardware": "Apple M2",
+  "platform": "darwin",
+  "browser": "156.0.8078.4",
+  "notes": "Headless Chrome; exact renderer recorded per view. Mobile is viewport/touch emulation, not a physical phone benchmark.",
+  "views": [
+    {
+      "name": "parking",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "Auto",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "resources": [
+        {
+          "model": "bus",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 4,
+          "bounds": [
+            71.23129983108163,
+            1.0999998331069947,
+            28.139895495871908
+          ]
+        },
+        {
+          "model": "keke",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 8,
+          "bounds": [
+            79.91043309227697,
+            0.9749998927116394,
+            20.249378823219544
+          ]
+        }
+      ],
+      "moving": [
+        {
+          "id": "traffic-4-3",
+          "model": "keke",
+          "x": -96.73726140611451,
+          "y": 0.19,
+          "z": -27.67044203794441,
+          "yaw": -113.89985196711937,
+          "waypoint": 330
+        },
+        {
+          "id": "traffic-4-2",
+          "model": "keke",
+          "x": 61.29481413563642,
+          "y": 0.19,
+          "z": -23.981593819474387,
+          "yaw": 84.18998916635599,
+          "waypoint": 921
+        },
+        {
+          "id": "traffic-4-1",
+          "model": "keke",
+          "x": 8.827113016144114,
+          "y": 0.19,
+          "z": -15.152366759657616,
+          "yaw": -115.38055013560295,
+          "waypoint": 1214
+        },
+        {
+          "id": "traffic-4-0",
+          "model": "keke",
+          "x": -45.781195447905404,
+          "y": 0.19,
+          "z": 9.36684656308512,
+          "yaw": -129.46254651785551,
+          "waypoint": 281
+        },
+        {
+          "id": "traffic-3-3",
+          "model": "bus",
+          "x": -90.73842694249157,
+          "y": 0.19,
+          "z": -24.78338545392597,
+          "yaw": -115.31998679299413,
+          "waypoint": 94
+        },
+        {
+          "id": "traffic-3-2",
+          "model": "bus",
+          "x": 47.91099897882112,
+          "y": 0.19,
+          "z": -25.061128341464254,
+          "yaw": 87.96971811542954,
+          "waypoint": 190
+        },
+        {
+          "id": "traffic-3-1",
+          "model": "bus",
+          "x": 21.78138396534057,
+          "y": 0.19,
+          "z": 24.698213544912093,
+          "yaw": -169.37107514928104,
+          "waypoint": 383
+        },
+        {
+          "id": "traffic-3-0",
+          "model": "bus",
+          "x": -41.45685054707019,
+          "y": 0.19,
+          "z": 12.620957101127889,
+          "yaw": -124.65061103109362,
+          "waypoint": 45
+        },
+        {
+          "id": "traffic-2-3",
+          "model": "sports",
+          "x": -208.2567555852719,
+          "y": 0.19,
+          "z": 190.40546922290957,
+          "yaw": -126.75729619805627,
+          "waypoint": 24
+        },
+        {
+          "id": "traffic-2-2",
+          "model": "sports",
+          "x": 95.25686236371412,
+          "y": 0.19,
+          "z": 172.99105685240187,
+          "yaw": 26.449069680772485,
+          "waypoint": 199
+        },
+        {
+          "id": "traffic-2-1",
+          "model": "sports",
+          "x": 202.72816489465424,
+          "y": 0.19,
+          "z": -121.695425055171,
+          "yaw": 107.09696231247989,
+          "waypoint": 18
+        },
+        {
+          "id": "traffic-2-0",
+          "model": "sports",
+          "x": -209.0865890226445,
+          "y": 0.19,
+          "z": 185.43171137184694,
+          "yaw": 57.22796646658765,
+          "waypoint": 31
+        },
+        {
+          "id": "traffic-1-5",
+          "model": "wagon",
+          "x": -196.25576206469017,
+          "y": 0.19,
+          "z": 194.83978172169532,
+          "yaw": 53.71264690364952,
+          "waypoint": 4
+        },
+        {
+          "id": "traffic-1-4",
+          "model": "wagon",
+          "x": 128.24671750757764,
+          "y": 0.19,
+          "z": -51.75929184874331,
+          "yaw": 89.3750418604394,
+          "waypoint": 670
+        },
+        {
+          "id": "traffic-1-3",
+          "model": "wagon",
+          "x": 224.43080382811561,
+          "y": 0.19,
+          "z": -128.19389480980135,
+          "yaw": 20.97836695311453,
+          "waypoint": 28
+        },
+        {
+          "id": "traffic-1-2",
+          "model": "wagon",
+          "x": -186.99957259557627,
+          "y": 0.19,
+          "z": 201.56340782565258,
+          "yaw": 54.13123804704541,
+          "waypoint": 7
+        },
+        {
+          "id": "traffic-1-1",
+          "model": "wagon",
+          "x": 50.83625058484216,
+          "y": 0.19,
+          "z": -54.205887270364926,
+          "yaw": -19.411853806623718,
+          "waypoint": 905
+        },
+        {
+          "id": "traffic-1-0",
+          "model": "wagon",
+          "x": 218.76526767801494,
+          "y": 0.19,
+          "z": -123.72028050258753,
+          "yaw": -69.0216330468841,
+          "waypoint": 0
+        },
+        {
+          "id": "traffic-0-5",
+          "model": "sedan",
+          "x": 203.7371636761025,
+          "y": 0.19,
+          "z": -118.34582470124754,
+          "yaw": -72.88166585471392,
+          "waypoint": 6
+        },
+        {
+          "id": "traffic-0-4",
+          "model": "sedan",
+          "x": -187.00632370367043,
+          "y": 0.19,
+          "z": 205.9993503503322,
+          "yaw": -125.81740999464687,
+          "waypoint": 16
+        },
+        {
+          "id": "traffic-0-3",
+          "model": "sedan",
+          "x": -55.325576286564306,
+          "y": 0.19,
+          "z": -7.574527155376349,
+          "yaw": 38.72834815024588,
+          "waypoint": 1371
+        },
+        {
+          "id": "traffic-0-2",
+          "model": "sedan",
+          "x": 191.9046072913219,
+          "y": 0.19,
+          "z": -115.77890311944151,
+          "yaw": -114.81591202080249,
+          "waypoint": 11
+        },
+        {
+          "id": "traffic-0-1",
+          "model": "sedan",
+          "x": -201.35613482498078,
+          "y": 0.19,
+          "z": 195.54615963865254,
+          "yaw": -126.60788124700288,
+          "waypoint": 22
+        },
+        {
+          "id": "traffic-0-0",
+          "model": "sedan",
+          "x": -33.623233180021316,
+          "y": 0.19,
+          "z": 25.98008872256692,
+          "yaw": -70.7728319509369,
+          "waypoint": 2
+        }
+      ],
+      "parked": [
+        {
+          "id": "parked-alli-keke-rank-1-4",
+          "model": "keke",
+          "x": 59.766,
+          "y": 0.16,
+          "z": -41.717,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-1-2",
+          "model": "keke",
+          "x": 58.627,
+          "y": 0.16,
+          "z": -45.967,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-0-4",
+          "model": "keke",
+          "x": 63.854,
+          "y": 0.16,
+          "z": -42.812,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-4",
+          "model": "keke",
+          "x": -42.242,
+          "y": 0.16,
+          "z": 51.18,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-3",
+          "model": "keke",
+          "x": -40.081,
+          "y": 0.16,
+          "z": 50.393,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-2",
+          "model": "keke",
+          "x": -37.919,
+          "y": 0.16,
+          "z": 49.607,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-1",
+          "model": "keke",
+          "x": -35.758,
+          "y": 0.16,
+          "z": 48.82,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-0",
+          "model": "keke",
+          "x": -33.597,
+          "y": 0.16,
+          "z": 48.033,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-3",
+          "model": "bus",
+          "x": -42.289,
+          "y": 0.16,
+          "z": 45.197,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-2",
+          "model": "bus",
+          "x": -39,
+          "y": 0.16,
+          "z": 44,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-1",
+          "model": "bus",
+          "x": -35.711,
+          "y": 0.16,
+          "z": 42.803,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-0",
+          "model": "bus",
+          "x": -32.422,
+          "y": 0.16,
+          "z": 41.606,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        }
+      ],
+      "telemetry": {
+        "fps": 2,
+        "frameMs": 477.6,
+        "drawCalls": 223,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 49,
+        "resolution": 0.9,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      }
+    },
+    {
+      "name": "bus-rank",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "Auto",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "resources": [
+        {
+          "model": "bus",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 4,
+          "bounds": [
+            71.23129983108163,
+            1.0999998331069947,
+            28.139895495871908
+          ]
+        },
+        {
+          "model": "keke",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 8,
+          "bounds": [
+            79.91043309227697,
+            0.9749998927116394,
+            20.249378823219544
+          ]
+        }
+      ],
+      "moving": [
+        {
+          "id": "traffic-4-3",
+          "model": "keke",
+          "x": -98.53361699339499,
+          "y": 0.19,
+          "z": -28.42881076706632,
+          "yaw": -112.4755057518018,
+          "waypoint": 331
+        },
+        {
+          "id": "traffic-4-2",
+          "model": "keke",
+          "x": 63.83171487969054,
+          "y": 0.19,
+          "z": -23.723457005327965,
+          "yaw": 84.18998916635599,
+          "waypoint": 921
+        },
+        {
+          "id": "traffic-4-1",
+          "model": "keke",
+          "x": 7.336369615422139,
+          "y": 0.19,
+          "z": -15.859603716556702,
+          "yaw": -115.38055013560295,
+          "waypoint": 1214
+        },
+        {
+          "id": "traffic-4-0",
+          "model": "keke",
+          "x": -46.859074020973146,
+          "y": 0.19,
+          "z": 8.427238628633251,
+          "yaw": -132.1740915020184,
+          "waypoint": 283
+        },
+        {
+          "id": "traffic-3-3",
+          "model": "bus",
+          "x": -93.17117843323709,
+          "y": 0.19,
+          "z": -25.95442539202729,
+          "yaw": -116.15615159515579,
+          "waypoint": 95
+        },
+        {
+          "id": "traffic-3-2",
+          "model": "bus",
+          "x": 50.30713642639858,
+          "y": 0.19,
+          "z": -24.932073883626874,
+          "yaw": 85.90434132894093,
+          "waypoint": 191
+        },
+        {
+          "id": "traffic-3-1",
+          "model": "bus",
+          "x": 21.416177823829408,
+          "y": 0.19,
+          "z": 22.752185674042174,
+          "yaw": -169.37107514928104,
+          "waypoint": 383
+        },
+        {
+          "id": "traffic-3-0",
+          "model": "bus",
+          "x": -42.89614615577244,
+          "y": 0.19,
+          "z": 11.608150503221733,
+          "yaw": -125.68428165255686,
+          "waypoint": 46
+        },
+        {
+          "id": "traffic-2-3",
+          "model": "sports",
+          "x": -210.0501563195125,
+          "y": 0.19,
+          "z": 189.04748538964208,
+          "yaw": -130.74255886269876,
+          "waypoint": 25
+        },
+        {
+          "id": "traffic-2-2",
+          "model": "sports",
+          "x": 96.927120344483,
+          "y": 0.19,
+          "z": 176.34854672992614,
+          "yaw": 26.449069680772485,
+          "waypoint": 199
+        },
+        {
+          "id": "traffic-2-1",
+          "model": "sports",
+          "x": 205.5841668338567,
+          "y": 0.19,
+          "z": -122.61349812181048,
+          "yaw": 108.56241286466214,
+          "waypoint": 20
+        },
+        {
+          "id": "traffic-2-0",
+          "model": "sports",
+          "x": -207.22019105145898,
+          "y": 0.19,
+          "z": 186.6863286379633,
+          "yaw": 53.242703801944344,
+          "waypoint": 0
+        },
+        {
+          "id": "traffic-1-5",
+          "model": "wagon",
+          "x": -193.22772709014967,
+          "y": 0.19,
+          "z": 197.05189691785986,
+          "yaw": 53.935991893994306,
+          "waypoint": 5
+        },
+        {
+          "id": "traffic-1-4",
+          "model": "wagon",
+          "x": 131.24658169599422,
+          "y": 0.19,
+          "z": -51.77271401235081,
+          "yaw": 91.0454528723413,
+          "waypoint": 672
+        },
+        {
+          "id": "traffic-1-3",
+          "model": "wagon",
+          "x": 223.8632068962465,
+          "y": 0.19,
+          "z": -126.31548119483453,
+          "yaw": -56.05112677778823,
+          "waypoint": 30
+        },
+        {
+          "id": "traffic-1-2",
+          "model": "wagon",
+          "x": -183.95933238196477,
+          "y": 0.19,
+          "z": 203.75872946265912,
+          "yaw": 54.182590005353326,
+          "waypoint": 8
+        },
+        {
+          "id": "traffic-1-1",
+          "model": "wagon",
+          "x": 49.93048342047547,
+          "y": 0.19,
+          "z": -51.346050847035016,
+          "yaw": -16.82808572506786,
+          "waypoint": 908
+        },
+        {
+          "id": "traffic-1-0",
+          "model": "wagon",
+          "x": 216.66440742460543,
+          "y": 0.19,
+          "z": -122.91474577605858,
+          "yaw": -69.0216330468841,
+          "waypoint": 0
+        },
+        {
+          "id": "traffic-0-5",
+          "model": "sedan",
+          "x": 200.14924306147097,
+          "y": 0.19,
+          "z": -117.2553950018764,
+          "yaw": -73.41091152602307,
+          "waypoint": 7
+        },
+        {
+          "id": "traffic-0-4",
+          "model": "sedan",
+          "x": -189.43817919307796,
+          "y": 0.19,
+          "z": 204.2426269664046,
+          "yaw": -125.86910058814239,
+          "waypoint": 17
+        },
+        {
+          "id": "traffic-0-3",
+          "model": "sedan",
+          "x": -54.31414536284133,
+          "y": 0.19,
+          "z": -6.270985650632973,
+          "yaw": 36.75269499288198,
+          "waypoint": 1373
+        },
+        {
+          "id": "traffic-0-2",
+          "model": "sedan",
+          "x": 192.64404698173934,
+          "y": 0.19,
+          "z": -118.38617859967269,
+          "yaw": 122.28574534295885,
+          "waypoint": 14
+        },
+        {
+          "id": "traffic-0-1",
+          "model": "sedan",
+          "x": -203.76398635439003,
+          "y": 0.19,
+          "z": 193.75667684120978,
+          "yaw": -126.69409519602844,
+          "waypoint": 23
+        },
+        {
+          "id": "traffic-0-0",
+          "model": "sedan",
+          "x": -35.18770257923898,
+          "y": 0.19,
+          "z": 26.50433817961864,
+          "yaw": -71.64264762290493,
+          "waypoint": 3
+        }
+      ],
+      "parked": [
+        {
+          "id": "parked-alli-keke-rank-1-4",
+          "model": "keke",
+          "x": 59.766,
+          "y": 0.16,
+          "z": -41.717,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-1-2",
+          "model": "keke",
+          "x": 58.627,
+          "y": 0.16,
+          "z": -45.967,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-0-4",
+          "model": "keke",
+          "x": 63.854,
+          "y": 0.16,
+          "z": -42.812,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-4",
+          "model": "keke",
+          "x": -42.242,
+          "y": 0.16,
+          "z": 51.18,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-3",
+          "model": "keke",
+          "x": -40.081,
+          "y": 0.16,
+          "z": 50.393,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-2",
+          "model": "keke",
+          "x": -37.919,
+          "y": 0.16,
+          "z": 49.607,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-1",
+          "model": "keke",
+          "x": -35.758,
+          "y": 0.16,
+          "z": 48.82,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-0",
+          "model": "keke",
+          "x": -33.597,
+          "y": 0.16,
+          "z": 48.033,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-3",
+          "model": "bus",
+          "x": -42.289,
+          "y": 0.16,
+          "z": 45.197,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-2",
+          "model": "bus",
+          "x": -39,
+          "y": 0.16,
+          "z": 44,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-1",
+          "model": "bus",
+          "x": -35.711,
+          "y": 0.16,
+          "z": 42.803,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-0",
+          "model": "bus",
+          "x": -32.422,
+          "y": 0.16,
+          "z": 41.606,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        }
+      ],
+      "telemetry": {
+        "fps": 2,
+        "frameMs": 498.5,
+        "drawCalls": 223,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 49,
+        "resolution": 0.9,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      }
+    },
+    {
+      "name": "keke-rank",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "Auto",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "resources": [
+        {
+          "model": "bus",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 4,
+          "bounds": [
+            71.23129983108163,
+            1.0999998331069947,
+            28.139895495871908
+          ]
+        },
+        {
+          "model": "keke",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 8,
+          "bounds": [
+            79.91043309227697,
+            0.9749998927116394,
+            20.249378823219544
+          ]
+        }
+      ],
+      "moving": [
+        {
+          "id": "traffic-4-3",
+          "model": "keke",
+          "x": -100.96565118552748,
+          "y": 0.19,
+          "z": -29.347239318985093,
+          "yaw": -109.44833619306678,
+          "waypoint": 333
+        },
+        {
+          "id": "traffic-4-2",
+          "model": "keke",
+          "x": 67.21347766597026,
+          "y": 0.19,
+          "z": -23.372032094758264,
+          "yaw": 83.64849441781223,
+          "waypoint": 922
+        },
+        {
+          "id": "traffic-4-1",
+          "model": "keke",
+          "x": 4.354882813978186,
+          "y": 0.19,
+          "z": -17.274077630354874,
+          "yaw": -115.38055013560295,
+          "waypoint": 1214
+        },
+        {
+          "id": "traffic-4-0",
+          "model": "keke",
+          "x": -48.93291449805186,
+          "y": 0.19,
+          "z": 6.458431100476775,
+          "yaw": -134.79839771339752,
+          "waypoint": 285
+        },
+        {
+          "id": "traffic-3-3",
+          "model": "bus",
+          "x": -96.40961940287937,
+          "y": 0.19,
+          "z": -27.525252099833047,
+          "yaw": -113.89985196711937,
+          "waypoint": 98
+        },
+        {
+          "id": "traffic-3-2",
+          "model": "bus",
+          "x": 53.49896425828229,
+          "y": 0.19,
+          "z": -24.703523907445426,
+          "yaw": 85.90434132894093,
+          "waypoint": 191
+        },
+        {
+          "id": "traffic-3-1",
+          "model": "bus",
+          "x": 20.712752649324575,
+          "y": 0.19,
+          "z": 18.855175143435485,
+          "yaw": -169.82182834493105,
+          "waypoint": 384
+        },
+        {
+          "id": "traffic-3-0",
+          "model": "bus",
+          "x": -45.67756789419571,
+          "y": 0.19,
+          "z": 9.452156816142926,
+          "yaw": -129.46254651785551,
+          "waypoint": 49
+        },
+        {
+          "id": "traffic-2-3",
+          "model": "sports",
+          "x": -212.32310557981862,
+          "y": 0.19,
+          "z": 187.08950130899336,
+          "yaw": -130.74255886269876,
+          "waypoint": 25
+        },
+        {
+          "id": "traffic-2-2",
+          "model": "sports",
+          "x": 99.1546739659433,
+          "y": 0.19,
+          "z": 180.82492966034377,
+          "yaw": 26.46969464383845,
+          "waypoint": 200
+        },
+        {
+          "id": "traffic-2-1",
+          "model": "sports",
+          "x": 209.36192614746096,
+          "y": 0.19,
+          "z": -123.92780268378075,
+          "yaw": 110.15580453989323,
+          "waypoint": 22
+        },
+        {
+          "id": "traffic-2-0",
+          "model": "sports",
+          "x": -204.8166582096476,
+          "y": 0.19,
+          "z": 188.48160852654172,
+          "yaw": 53.242703801944344,
+          "waypoint": 0
+        },
+        {
+          "id": "traffic-1-5",
+          "model": "wagon",
+          "x": -189.17984423125588,
+          "y": 0.19,
+          "z": 199.9869652351318,
+          "yaw": 54.13123804704541,
+          "waypoint": 7
+        },
+        {
+          "id": "traffic-1-4",
+          "model": "wagon",
+          "x": 135.2462647421756,
+          "y": 0.19,
+          "z": -51.79629750803449,
+          "yaw": 88.9432813195996,
+          "waypoint": 674
+        },
+        {
+          "id": "traffic-1-3",
+          "model": "wagon",
+          "x": 221.27760403178084,
+          "y": 0.19,
+          "z": -124.81045610160092,
+          "yaw": -64.6313420154958,
+          "waypoint": 31
+        },
+        {
+          "id": "traffic-1-2",
+          "model": "wagon",
+          "x": -179.97974853541615,
+          "y": 0.19,
+          "z": 206.7826334747553,
+          "yaw": 51.01095957708961,
+          "waypoint": 9
+        },
+        {
+          "id": "traffic-1-1",
+          "model": "wagon",
+          "x": 48.827648361365455,
+          "y": 0.19,
+          "z": -47.50115864951578,
+          "yaw": -15.672906437149484,
+          "waypoint": 910
+        },
+        {
+          "id": "traffic-1-0",
+          "model": "wagon",
+          "x": 213.85726389082387,
+          "y": 0.19,
+          "z": -121.85648928710444,
+          "yaw": -69.38761468961874,
+          "waypoint": 1
+        },
+        {
+          "id": "traffic-0-5",
+          "model": "sedan",
+          "x": 195.3333673206352,
+          "y": 0.19,
+          "z": -115.92216427973176,
+          "yaw": -79.36321032927104,
+          "waypoint": 9
+        },
+        {
+          "id": "traffic-0-4",
+          "model": "sedan",
+          "x": -192.6788714293218,
+          "y": 0.19,
+          "z": 201.8978649775907,
+          "yaw": -125.94451974086499,
+          "waypoint": 18
+        },
+        {
+          "id": "traffic-0-3",
+          "model": "sedan",
+          "x": -52.42150750274297,
+          "y": 0.19,
+          "z": -3.5687356521368185,
+          "yaw": 33.00890916326992,
+          "waypoint": 1376
+        },
+        {
+          "id": "traffic-0-2",
+          "model": "sedan",
+          "x": 197.33520759543572,
+          "y": 0.19,
+          "z": -120.07425795857664,
+          "yaw": 106.14645877620818,
+          "waypoint": 16
+        },
+        {
+          "id": "traffic-0-1",
+          "model": "sedan",
+          "x": -206.9708975283623,
+          "y": 0.19,
+          "z": 191.36592005136453,
+          "yaw": -126.75729619805627,
+          "waypoint": 24
+        },
+        {
+          "id": "traffic-0-0",
+          "model": "sedan",
+          "x": -38.33555835689575,
+          "y": 0.19,
+          "z": 27.49422643654771,
+          "yaw": -73.47160445680555,
+          "waypoint": 5
+        }
+      ],
+      "parked": [
+        {
+          "id": "parked-alli-keke-rank-1-4",
+          "model": "keke",
+          "x": 59.766,
+          "y": 0.16,
+          "z": -41.717,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-1-2",
+          "model": "keke",
+          "x": 58.627,
+          "y": 0.16,
+          "z": -45.967,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-0-4",
+          "model": "keke",
+          "x": 63.854,
+          "y": 0.16,
+          "z": -42.812,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-4",
+          "model": "keke",
+          "x": -42.242,
+          "y": 0.16,
+          "z": 51.18,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-3",
+          "model": "keke",
+          "x": -40.081,
+          "y": 0.16,
+          "z": 50.393,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-2",
+          "model": "keke",
+          "x": -37.919,
+          "y": 0.16,
+          "z": 49.607,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-1",
+          "model": "keke",
+          "x": -35.758,
+          "y": 0.16,
+          "z": 48.82,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-0",
+          "model": "keke",
+          "x": -33.597,
+          "y": 0.16,
+          "z": 48.033,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-3",
+          "model": "bus",
+          "x": -42.289,
+          "y": 0.16,
+          "z": 45.197,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-2",
+          "model": "bus",
+          "x": -39,
+          "y": 0.16,
+          "z": 44,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-1",
+          "model": "bus",
+          "x": -35.711,
+          "y": 0.16,
+          "z": 42.803,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-0",
+          "model": "bus",
+          "x": -32.422,
+          "y": 0.16,
+          "z": 41.606,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        }
+      ],
+      "telemetry": {
+        "fps": 2,
+        "frameMs": 488.3,
+        "drawCalls": 314,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 49,
+        "resolution": 0.8,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      }
+    },
+    {
+      "name": "moving-bus",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "Auto",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "resources": [
+        {
+          "model": "bus",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 4,
+          "bounds": [
+            71.23129983108163,
+            1.0999998331069947,
+            28.139895495871908
+          ]
+        },
+        {
+          "model": "keke",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 8,
+          "bounds": [
+            79.91043309227697,
+            0.9749998927116394,
+            20.249378823219544
+          ]
+        }
+      ],
+      "moving": [
+        {
+          "id": "traffic-4-3",
+          "model": "keke",
+          "x": -102.19173872510179,
+          "y": 0.19,
+          "z": -29.779316256514456,
+          "yaw": -108.38686558568733,
+          "waypoint": 334
+        },
+        {
+          "id": "traffic-4-2",
+          "model": "keke",
+          "x": 68.9030429114062,
+          "y": 0.19,
+          "z": -23.183964868971888,
+          "yaw": 83.64849441781223,
+          "waypoint": 922
+        },
+        {
+          "id": "traffic-4-1",
+          "model": "keke",
+          "x": 2.864139413256207,
+          "y": 0.19,
+          "z": -17.981314587253962,
+          "yaw": -115.38055013560295,
+          "waypoint": 1214
+        },
+        {
+          "id": "traffic-4-0",
+          "model": "keke",
+          "x": -49.92419313026627,
+          "y": 0.19,
+          "z": 5.427914394681169,
+          "yaw": -137.646209796846,
+          "waypoint": 287
+        },
+        {
+          "id": "traffic-3-3",
+          "model": "bus",
+          "x": -98.06386078658791,
+          "y": 0.19,
+          "z": -28.234466612638744,
+          "yaw": -112.4755057518018,
+          "waypoint": 99
+        },
+        {
+          "id": "traffic-3-2",
+          "model": "bus",
+          "x": 55.09374678660563,
+          "y": 0.19,
+          "z": -24.57571252085304,
+          "yaw": 84.5401751524029,
+          "waypoint": 192
+        },
+        {
+          "id": "traffic-3-1",
+          "model": "bus",
+          "x": 20.36286730058672,
+          "y": 0.19,
+          "z": 16.90633440013741,
+          "yaw": -169.82182834493105,
+          "waypoint": 384
+        },
+        {
+          "id": "traffic-3-0",
+          "model": "bus",
+          "x": -47.00416405386086,
+          "y": 0.19,
+          "z": 8.295798521576181,
+          "yaw": -132.1740915020184,
+          "waypoint": 51
+        },
+        {
+          "id": "traffic-2-3",
+          "model": "sports",
+          "x": -213.31820004816288,
+          "y": 0.19,
+          "z": 185.96740373314253,
+          "yaw": -138.56246475725638,
+          "waypoint": 26
+        },
+        {
+          "id": "traffic-2-2",
+          "model": "sports",
+          "x": 100.26898495257936,
+          "y": 0.19,
+          "z": 183.06285526792374,
+          "yaw": 26.46969464383845,
+          "waypoint": 200
+        },
+        {
+          "id": "traffic-2-1",
+          "model": "sports",
+          "x": 211.23944433041055,
+          "y": 0.19,
+          "z": -124.6169510514736,
+          "yaw": 110.15580453989323,
+          "waypoint": 22
+        },
+        {
+          "id": "traffic-2-0",
+          "model": "sports",
+          "x": -203.61434370289624,
+          "y": 0.19,
+          "z": 189.37851385045306,
+          "yaw": 53.30550208361118,
+          "waypoint": 1
+        },
+        {
+          "id": "traffic-1-5",
+          "model": "wagon",
+          "x": -187.15394119571178,
+          "y": 0.19,
+          "z": 201.45179180868007,
+          "yaw": 54.13123804704541,
+          "waypoint": 7
+        },
+        {
+          "id": "traffic-1-4",
+          "model": "wagon",
+          "x": 137.24581231524934,
+          "y": 0.19,
+          "z": -51.75537723584919,
+          "yaw": 87.86946676006608,
+          "waypoint": 675
+        },
+        {
+          "id": "traffic-1-3",
+          "model": "wagon",
+          "x": 219.9222493402108,
+          "y": 0.19,
+          "z": -124.1677947132796,
+          "yaw": -64.6313420154958,
+          "waypoint": 31
+        },
+        {
+          "id": "traffic-1-2",
+          "model": "wagon",
+          "x": -178.08494203030222,
+          "y": 0.19,
+          "z": 208.40904108406593,
+          "yaw": 44.744277387984134,
+          "waypoint": 10
+        },
+        {
+          "id": "traffic-1-1",
+          "model": "wagon",
+          "x": 48.28735798959599,
+          "y": 0.19,
+          "z": -45.57551945325569,
+          "yaw": -15.672906437149484,
+          "waypoint": 910
+        },
+        {
+          "id": "traffic-1-0",
+          "model": "wagon",
+          "x": 212.45101011163362,
+          "y": 0.19,
+          "z": -121.33455877531694,
+          "yaw": -69.86434467322522,
+          "waypoint": 2
+        },
+        {
+          "id": "traffic-0-5",
+          "model": "sedan",
+          "x": 192.86027649780294,
+          "y": 0.19,
+          "z": -115.63298435827127,
+          "yaw": -89.99282779054386,
+          "waypoint": 10
+        },
+        {
+          "id": "traffic-0-4",
+          "model": "sedan",
+          "x": -194.29804297976233,
+          "y": 0.19,
+          "z": 200.72386178754226,
+          "yaw": -125.94451974086499,
+          "waypoint": 18
+        },
+        {
+          "id": "traffic-0-3",
+          "model": "sedan",
+          "x": -51.68860651840865,
+          "y": 0.19,
+          "z": -2.0931347566026335,
+          "yaw": 22.60753520423566,
+          "waypoint": 1378
+        },
+        {
+          "id": "traffic-0-2",
+          "model": "sedan",
+          "x": 199.73269756179536,
+          "y": 0.19,
+          "z": -120.78275916725912,
+          "yaw": 106.57589467212615,
+          "waypoint": 17
+        },
+        {
+          "id": "traffic-0-1",
+          "model": "sedan",
+          "x": -208.5732527562365,
+          "y": 0.19,
+          "z": 190.1690667923122,
+          "yaw": -126.75729619805627,
+          "waypoint": 24
+        },
+        {
+          "id": "traffic-0-0",
+          "model": "sedan",
+          "x": -39.918661278039686,
+          "y": 0.19,
+          "z": 27.959186593871866,
+          "yaw": -74.36128222679436,
+          "waypoint": 6
+        }
+      ],
+      "parked": [
+        {
+          "id": "parked-alli-keke-rank-1-4",
+          "model": "keke",
+          "x": 59.766,
+          "y": 0.16,
+          "z": -41.717,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-1-2",
+          "model": "keke",
+          "x": 58.627,
+          "y": 0.16,
+          "z": -45.967,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-0-4",
+          "model": "keke",
+          "x": 63.854,
+          "y": 0.16,
+          "z": -42.812,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-4",
+          "model": "keke",
+          "x": -42.242,
+          "y": 0.16,
+          "z": 51.18,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-3",
+          "model": "keke",
+          "x": -40.081,
+          "y": 0.16,
+          "z": 50.393,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-2",
+          "model": "keke",
+          "x": -37.919,
+          "y": 0.16,
+          "z": 49.607,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-1",
+          "model": "keke",
+          "x": -35.758,
+          "y": 0.16,
+          "z": 48.82,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-0",
+          "model": "keke",
+          "x": -33.597,
+          "y": 0.16,
+          "z": 48.033,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-3",
+          "model": "bus",
+          "x": -42.289,
+          "y": 0.16,
+          "z": 45.197,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-2",
+          "model": "bus",
+          "x": -39,
+          "y": 0.16,
+          "z": 44,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-1",
+          "model": "bus",
+          "x": -35.711,
+          "y": 0.16,
+          "z": 42.803,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-0",
+          "model": "bus",
+          "x": -32.422,
+          "y": 0.16,
+          "z": 41.606,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        }
+      ],
+      "telemetry": {
+        "fps": 2,
+        "frameMs": 490.7,
+        "drawCalls": 314,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 49,
+        "resolution": 0.8,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      }
+    },
+    {
+      "name": "moving-keke",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "Auto",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "resources": [
+        {
+          "model": "bus",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 4,
+          "bounds": [
+            71.23129983108163,
+            1.0999998331069947,
+            28.139895495871908
+          ]
+        },
+        {
+          "model": "keke",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 8,
+          "bounds": [
+            79.91043309227697,
+            0.9749998927116394,
+            20.249378823219544
+          ]
+        }
+      ],
+      "moving": [
+        {
+          "id": "traffic-4-3",
+          "model": "keke",
+          "x": -105.27862070173649,
+          "y": 0.19,
+          "z": -30.79586433553733,
+          "yaw": -107.66297228725308,
+          "waypoint": 335
+        },
+        {
+          "id": "traffic-4-2",
+          "model": "keke",
+          "x": 73.12209436153242,
+          "y": 0.19,
+          "z": -22.67318013993176,
+          "yaw": 82.70027021120822,
+          "waypoint": 923
+        },
+        {
+          "id": "traffic-4-1",
+          "model": "keke",
+          "x": -0.14406969763950084,
+          "y": 0.19,
+          "z": -19.337550242238706,
+          "yaw": -113.91498434331085,
+          "waypoint": 1215
+        },
+        {
+          "id": "traffic-4-0",
+          "model": "keke",
+          "x": -51.80136804126526,
+          "y": 0.19,
+          "z": 3.270735429662749,
+          "yaw": -140.06130897976146,
+          "waypoint": 289
+        },
+        {
+          "id": "traffic-3-3",
+          "model": "bus",
+          "x": -102.27869040721609,
+          "y": 0.19,
+          "z": -29.80821909455108,
+          "yaw": -108.38686558568733,
+          "waypoint": 102
+        },
+        {
+          "id": "traffic-3-2",
+          "model": "bus",
+          "x": 59.07559942507769,
+          "y": 0.19,
+          "z": -24.195121447004677,
+          "yaw": 84.5401751524029,
+          "waypoint": 192
+        },
+        {
+          "id": "traffic-3-1",
+          "model": "bus",
+          "x": 19.663096603111015,
+          "y": 0.19,
+          "z": 13.008652913541267,
+          "yaw": -169.82182834493105,
+          "waypoint": 384
+        },
+        {
+          "id": "traffic-3-0",
+          "model": "bus",
+          "x": -49.529125741285235,
+          "y": 0.19,
+          "z": 5.844590033250389,
+          "yaw": -136.1856787746833,
+          "waypoint": 54
+        },
+        {
+          "id": "traffic-2-3",
+          "model": "sports",
+          "x": -212.8656525607656,
+          "y": 0.19,
+          "z": 183.58775535558746,
+          "yaw": 85.33103666537879,
+          "waypoint": 29
+        },
+        {
+          "id": "traffic-2-2",
+          "model": "sports",
+          "x": 103.05476241916949,
+          "y": 0.19,
+          "z": 188.65766928687367,
+          "yaw": 26.46969464383845,
+          "waypoint": 200
+        },
+        {
+          "id": "traffic-2-1",
+          "model": "sports",
+          "x": 215.91920164846786,
+          "y": 0.19,
+          "z": -126.37747532082722,
+          "yaw": 110.9783669531157,
+          "waypoint": 24
+        },
+        {
+          "id": "traffic-2-0",
+          "model": "sports",
+          "x": -200.60670179425705,
+          "y": 0.19,
+          "z": 191.61828718142598,
+          "yaw": 53.39136746114506,
+          "waypoint": 2
+        },
+        {
+          "id": "traffic-1-5",
+          "model": "wagon",
+          "x": -182.08658586889663,
+          "y": 0.19,
+          "z": 205.11026209309733,
+          "yaw": 54.182590005353326,
+          "waypoint": 8
+        },
+        {
+          "id": "traffic-1-4",
+          "model": "wagon",
+          "x": 142.2382289811624,
+          "y": 0.19,
+          "z": -51.48945943162919,
+          "yaw": 85.69864354827061,
+          "waypoint": 677
+        },
+        {
+          "id": "traffic-1-3",
+          "model": "wagon",
+          "x": 216.42224657228047,
+          "y": 0.19,
+          "z": -122.82189382379903,
+          "yaw": -69.0216330468841,
+          "waypoint": 0
+        },
+        {
+          "id": "traffic-1-2",
+          "model": "wagon",
+          "x": -178.14962205592624,
+          "y": 0.19,
+          "z": 211.60730041223871,
+          "yaw": -116.37909737727614,
+          "waypoint": 14
+        },
+        {
+          "id": "traffic-1-1",
+          "model": "wagon",
+          "x": 46.95029265293563,
+          "y": 0.19,
+          "z": -40.75761117617589,
+          "yaw": -15.400130428117043,
+          "waypoint": 912
+        },
+        {
+          "id": "traffic-1-0",
+          "model": "wagon",
+          "x": 208.92401217818286,
+          "y": 0.19,
+          "z": -120.06084526344064,
+          "yaw": -70.5109447892057,
+          "waypoint": 3
+        },
+        {
+          "id": "traffic-0-5",
+          "model": "sedan",
+          "x": 194.01984805426795,
+          "y": 0.19,
+          "z": -119.00254062209027,
+          "yaw": 111.65612788168706,
+          "waypoint": 15
+        },
+        {
+          "id": "traffic-0-4",
+          "model": "sedan",
+          "x": -198.33754843488558,
+          "y": 0.19,
+          "z": 197.7772893840122,
+          "yaw": -126.28735309635024,
+          "waypoint": 20
+        },
+        {
+          "id": "traffic-0-3",
+          "model": "sedan",
+          "x": -50.68638974068083,
+          "y": 0.19,
+          "z": 1.0467640023014082,
+          "yaw": 12.894082153868336,
+          "waypoint": 1381
+        },
+        {
+          "id": "traffic-0-2",
+          "model": "sedan",
+          "x": 205.69655380269126,
+          "y": 0.19,
+          "z": -122.65123845537876,
+          "yaw": 108.56241286466214,
+          "waypoint": 20
+        },
+        {
+          "id": "traffic-0-1",
+          "model": "sedan",
+          "x": -212.42148324955548,
+          "y": 0.19,
+          "z": 186.9831870262209,
+          "yaw": -138.56246475725638,
+          "waypoint": 26
+        },
+        {
+          "id": "traffic-0-0",
+          "model": "sedan",
+          "x": -43.10363941158013,
+          "y": 0.19,
+          "z": 28.822442906582495,
+          "yaw": -75.28225017514997,
+          "waypoint": 7
+        }
+      ],
+      "parked": [
+        {
+          "id": "parked-alli-keke-rank-1-4",
+          "model": "keke",
+          "x": 59.766,
+          "y": 0.16,
+          "z": -41.717,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-1-2",
+          "model": "keke",
+          "x": 58.627,
+          "y": 0.16,
+          "z": -45.967,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-0-4",
+          "model": "keke",
+          "x": 63.854,
+          "y": 0.16,
+          "z": -42.812,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-4",
+          "model": "keke",
+          "x": -42.242,
+          "y": 0.16,
+          "z": 51.18,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-3",
+          "model": "keke",
+          "x": -40.081,
+          "y": 0.16,
+          "z": 50.393,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-2",
+          "model": "keke",
+          "x": -37.919,
+          "y": 0.16,
+          "z": 49.607,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-1",
+          "model": "keke",
+          "x": -35.758,
+          "y": 0.16,
+          "z": 48.82,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-0",
+          "model": "keke",
+          "x": -33.597,
+          "y": 0.16,
+          "z": 48.033,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-3",
+          "model": "bus",
+          "x": -42.289,
+          "y": 0.16,
+          "z": 45.197,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-2",
+          "model": "bus",
+          "x": -39,
+          "y": 0.16,
+          "z": 44,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-1",
+          "model": "bus",
+          "x": -35.711,
+          "y": 0.16,
+          "z": 42.803,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-0",
+          "model": "bus",
+          "x": -32.422,
+          "y": 0.16,
+          "z": 41.606,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        }
+      ],
+      "telemetry": {
+        "fps": 2,
+        "frameMs": 447.7,
+        "drawCalls": 249,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 49,
+        "resolution": 0.7,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      }
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "quality": "Performance",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "resources": [
+        {
+          "model": "bus",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 4,
+          "bounds": [
+            76.05573325563904,
+            1.0999998331069947,
+            26.500283644088377
+          ]
+        },
+        {
+          "model": "keke",
+          "trafficCount": 4,
+          "sharedGeometry": true,
+          "parkedCount": 8,
+          "bounds": [
+            84.24833999395204,
+            0.9749998927116394,
+            19.793800843943004
+          ]
+        }
+      ],
+      "moving": [
+        {
+          "id": "traffic-4-3",
+          "model": "keke",
+          "x": -100.96565118552748,
+          "y": 0.19,
+          "z": -29.347239318985093,
+          "yaw": -109.44833619306678,
+          "waypoint": 333
+        },
+        {
+          "id": "traffic-4-2",
+          "model": "keke",
+          "x": 67.21347766597026,
+          "y": 0.19,
+          "z": -23.372032094758264,
+          "yaw": 83.64849441781223,
+          "waypoint": 922
+        },
+        {
+          "id": "traffic-4-1",
+          "model": "keke",
+          "x": 4.354882813978186,
+          "y": 0.19,
+          "z": -17.274077630354874,
+          "yaw": -115.38055013560295,
+          "waypoint": 1214
+        },
+        {
+          "id": "traffic-4-0",
+          "model": "keke",
+          "x": -48.93291449805186,
+          "y": 0.19,
+          "z": 6.458431100476775,
+          "yaw": -134.79839771339752,
+          "waypoint": 285
+        },
+        {
+          "id": "traffic-3-3",
+          "model": "bus",
+          "x": -96.40961940287937,
+          "y": 0.19,
+          "z": -27.525252099833047,
+          "yaw": -113.89985196711937,
+          "waypoint": 98
+        },
+        {
+          "id": "traffic-3-2",
+          "model": "bus",
+          "x": 53.49896425828229,
+          "y": 0.19,
+          "z": -24.703523907445426,
+          "yaw": 85.90434132894093,
+          "waypoint": 191
+        },
+        {
+          "id": "traffic-3-1",
+          "model": "bus",
+          "x": 20.712752649324575,
+          "y": 0.19,
+          "z": 18.855175143435485,
+          "yaw": -169.82182834493105,
+          "waypoint": 384
+        },
+        {
+          "id": "traffic-3-0",
+          "model": "bus",
+          "x": -45.67756789419571,
+          "y": 0.19,
+          "z": 9.452156816142926,
+          "yaw": -129.46254651785551,
+          "waypoint": 49
+        },
+        {
+          "id": "traffic-2-3",
+          "model": "sports",
+          "x": -212.32310557981862,
+          "y": 0.19,
+          "z": 187.08950130899336,
+          "yaw": -130.74255886269876,
+          "waypoint": 25
+        },
+        {
+          "id": "traffic-2-2",
+          "model": "sports",
+          "x": 99.1546739659433,
+          "y": 0.19,
+          "z": 180.82492966034377,
+          "yaw": 26.46969464383845,
+          "waypoint": 200
+        },
+        {
+          "id": "traffic-2-1",
+          "model": "sports",
+          "x": 209.36192614746096,
+          "y": 0.19,
+          "z": -123.92780268378075,
+          "yaw": 110.15580453989323,
+          "waypoint": 22
+        },
+        {
+          "id": "traffic-2-0",
+          "model": "sports",
+          "x": -204.8166582096476,
+          "y": 0.19,
+          "z": 188.48160852654172,
+          "yaw": 53.242703801944344,
+          "waypoint": 0
+        },
+        {
+          "id": "traffic-1-5",
+          "model": "wagon",
+          "x": -189.17984423125588,
+          "y": 0.19,
+          "z": 199.9869652351318,
+          "yaw": 54.13123804704541,
+          "waypoint": 7
+        },
+        {
+          "id": "traffic-1-4",
+          "model": "wagon",
+          "x": 135.2462647421756,
+          "y": 0.19,
+          "z": -51.79629750803449,
+          "yaw": 88.9432813195996,
+          "waypoint": 674
+        },
+        {
+          "id": "traffic-1-3",
+          "model": "wagon",
+          "x": 221.27760403178084,
+          "y": 0.19,
+          "z": -124.81045610160092,
+          "yaw": -64.6313420154958,
+          "waypoint": 31
+        },
+        {
+          "id": "traffic-1-2",
+          "model": "wagon",
+          "x": -179.97974853541615,
+          "y": 0.19,
+          "z": 206.7826334747553,
+          "yaw": 51.01095957708961,
+          "waypoint": 9
+        },
+        {
+          "id": "traffic-1-1",
+          "model": "wagon",
+          "x": 48.827648361365455,
+          "y": 0.19,
+          "z": -47.50115864951578,
+          "yaw": -15.672906437149484,
+          "waypoint": 910
+        },
+        {
+          "id": "traffic-1-0",
+          "model": "wagon",
+          "x": 213.85726389082387,
+          "y": 0.19,
+          "z": -121.85648928710444,
+          "yaw": -69.38761468961874,
+          "waypoint": 1
+        },
+        {
+          "id": "traffic-0-5",
+          "model": "sedan",
+          "x": 195.3333673206352,
+          "y": 0.19,
+          "z": -115.92216427973176,
+          "yaw": -79.36321032927104,
+          "waypoint": 9
+        },
+        {
+          "id": "traffic-0-4",
+          "model": "sedan",
+          "x": -192.6788714293218,
+          "y": 0.19,
+          "z": 201.8978649775907,
+          "yaw": -125.94451974086499,
+          "waypoint": 18
+        },
+        {
+          "id": "traffic-0-3",
+          "model": "sedan",
+          "x": -52.42150750274297,
+          "y": 0.19,
+          "z": -3.5687356521368185,
+          "yaw": 33.00890916326992,
+          "waypoint": 1376
+        },
+        {
+          "id": "traffic-0-2",
+          "model": "sedan",
+          "x": 197.33520759543572,
+          "y": 0.19,
+          "z": -120.07425795857664,
+          "yaw": 106.14645877620818,
+          "waypoint": 16
+        },
+        {
+          "id": "traffic-0-1",
+          "model": "sedan",
+          "x": -206.9708975283623,
+          "y": 0.19,
+          "z": 191.36592005136453,
+          "yaw": -126.75729619805627,
+          "waypoint": 24
+        },
+        {
+          "id": "traffic-0-0",
+          "model": "sedan",
+          "x": -38.33555835689575,
+          "y": 0.19,
+          "z": 27.49422643654771,
+          "yaw": -73.47160445680555,
+          "waypoint": 5
+        }
+      ],
+      "parked": [
+        {
+          "id": "parked-alli-keke-rank-1-4",
+          "model": "keke",
+          "x": 59.766,
+          "y": 0.16,
+          "z": -41.717,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-1-2",
+          "model": "keke",
+          "x": 58.627,
+          "y": 0.16,
+          "z": -45.967,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-alli-keke-rank-0-4",
+          "model": "keke",
+          "x": 63.854,
+          "y": 0.16,
+          "z": -42.812,
+          "yaw": -75,
+          "chunkId": "0_-1"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-4",
+          "model": "keke",
+          "x": -42.242,
+          "y": 0.16,
+          "z": 51.18,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-3",
+          "model": "keke",
+          "x": -40.081,
+          "y": 0.16,
+          "z": 50.393,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-2",
+          "model": "keke",
+          "x": -37.919,
+          "y": 0.16,
+          "z": 49.607,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-1",
+          "model": "keke",
+          "x": -35.758,
+          "y": 0.16,
+          "z": 48.82,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-keke-rank-0-0",
+          "model": "keke",
+          "x": -33.597,
+          "y": 0.16,
+          "z": 48.033,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-3",
+          "model": "bus",
+          "x": -42.289,
+          "y": 0.16,
+          "z": 45.197,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-2",
+          "model": "bus",
+          "x": -39,
+          "y": 0.16,
+          "z": 44,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-1",
+          "model": "bus",
+          "x": -35.711,
+          "y": 0.16,
+          "z": 42.803,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        },
+        {
+          "id": "parked-custom-bus-rank-0-0",
+          "model": "bus",
+          "x": -32.422,
+          "y": 0.16,
+          "z": 41.606,
+          "yaw": -160,
+          "chunkId": "-1_0"
+        }
+      ],
+      "telemetry": {
+        "fps": 5,
+        "frameMs": 212.3,
+        "drawCalls": 84,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 49,
+        "resolution": 0.65,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      }
+    }
+  ],
+  "passed": true,
+  "errors": []
+}

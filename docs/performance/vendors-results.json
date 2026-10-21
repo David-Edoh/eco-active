@@ -1,0 +1,1460 @@
+{
+  "hardware": "Apple M2",
+  "platform": "darwin",
+  "browser": "156.0.8078.4",
+  "notes": "Headless Chrome with software/GPU renderer recorded below; mobile is viewport/touch emulation, not a physical phone benchmark.",
+  "views": [
+    {
+      "name": "overview",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "Auto",
+      "telemetry": {
+        "fps": 3,
+        "frameMs": 360.6,
+        "drawCalls": 272,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 1,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "groups": [
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.4676448126105193,
+            1.3999999418891989,
+            1.4581049735472327
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8195653595100154,
+            1.3999999761197777,
+            1.5123708755995384
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.653053788626277,
+            1.2749998535755935,
+            2.1598966576169047
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            1.8820467589348198,
+            1.349999904596648,
+            1.8786927594927363
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 3,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            5.716769818420435,
+            1.3999999418891989,
+            18.06029881753933
+          ]
+        },
+        {
+          "name": "vendor-shop-1:vendor:base",
+          "count": 2,
+          "material": "vendor-shop-1",
+          "texture": true,
+          "halfExtents": [
+            4.1631644213362335,
+            1.2999999523387555,
+            16.62059513511857
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 2,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            8.286587988009869,
+            1.349999904596648,
+            17.89607284157157
+          ]
+        },
+        {
+          "name": "vendor-food-vendor:vendor:base",
+          "count": 1,
+          "material": "vendor-food-vendor",
+          "texture": true,
+          "halfExtents": [
+            1.9494324021522083,
+            1.2499998052080414,
+            2.325030008505097
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.6374930174639069,
+            1.3999999761197777,
+            1.8567564708280102
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.5509883651142644,
+            1.2749998535755935,
+            2.830082660650511
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 3,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            17.499421872907583,
+            1.349999904596648,
+            32.37018141408261
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.3775985405361766,
+            1.2749998535755935,
+            2.764482812854464
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.389636663509517,
+            1.3999999418891989,
+            1.4010971069933795
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.4045677192594734,
+            1.3999999761197777,
+            1.7736080141800734
+          ]
+        },
+        {
+          "name": "vendor-food-vendor:vendor:base",
+          "count": 1,
+          "material": "vendor-food-vendor",
+          "texture": true,
+          "halfExtents": [
+            2.5700196842360867,
+            1.2499998052080414,
+            2.357460749343687
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 2,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            11.438559833533873,
+            1.3999999418891989,
+            8.955252216214426
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8621895042261762,
+            1.3999999761197777,
+            1.7556654411726527
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.853506165391991,
+            1.2749998535755935,
+            2.7179146754312242
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            1.8979660374579908,
+            1.349999904596648,
+            1.9010119448841571
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.5509883651142644,
+            1.2749998535755935,
+            2.830082660650511
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.5307333736861537,
+            1.3999999418891989,
+            1.5375425391077684
+          ]
+        },
+        {
+          "name": "vendor-shop-1:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-1",
+          "texture": true,
+          "halfExtents": [
+            2.154393583593354,
+            1.2999999523387555,
+            2.5801555439389325
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 4,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            14.075330574634137,
+            1.3999999418891989,
+            3.9318967061230836
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8621895042261762,
+            1.3999999761197777,
+            1.7556654411726527
+          ]
+        }
+      ]
+    },
+    {
+      "name": "church-market",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "Auto",
+      "telemetry": {
+        "fps": 3,
+        "frameMs": 390.4,
+        "drawCalls": 224,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.9,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "groups": [
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.4676448126105193,
+            1.3999999418891989,
+            1.4581049735472327
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8195653595100154,
+            1.3999999761197777,
+            1.5123708755995384
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.653053788626277,
+            1.2749998535755935,
+            2.1598966576169047
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            1.8820467589348198,
+            1.349999904596648,
+            1.8786927594927363
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 3,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            5.716769818420435,
+            1.3999999418891989,
+            18.06029881753933
+          ]
+        },
+        {
+          "name": "vendor-shop-1:vendor:base",
+          "count": 2,
+          "material": "vendor-shop-1",
+          "texture": true,
+          "halfExtents": [
+            4.1631644213362335,
+            1.2999999523387555,
+            16.62059513511857
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 2,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            8.286587988009869,
+            1.349999904596648,
+            17.89607284157157
+          ]
+        },
+        {
+          "name": "vendor-food-vendor:vendor:base",
+          "count": 1,
+          "material": "vendor-food-vendor",
+          "texture": true,
+          "halfExtents": [
+            1.9494324021522083,
+            1.2499998052080414,
+            2.325030008505097
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.6374930174639069,
+            1.3999999761197777,
+            1.8567564708280102
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.5509883651142644,
+            1.2749998535755935,
+            2.830082660650511
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 3,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            17.499421872907583,
+            1.349999904596648,
+            32.37018141408261
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.3775985405361766,
+            1.2749998535755935,
+            2.764482812854464
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.389636663509517,
+            1.3999999418891989,
+            1.4010971069933795
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.4045677192594734,
+            1.3999999761197777,
+            1.7736080141800734
+          ]
+        },
+        {
+          "name": "vendor-food-vendor:vendor:base",
+          "count": 1,
+          "material": "vendor-food-vendor",
+          "texture": true,
+          "halfExtents": [
+            2.5700196842360867,
+            1.2499998052080414,
+            2.357460749343687
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 2,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            11.438559833533873,
+            1.3999999418891989,
+            8.955252216214426
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8621895042261762,
+            1.3999999761197777,
+            1.7556654411726527
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.853506165391991,
+            1.2749998535755935,
+            2.7179146754312242
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            1.8979660374579908,
+            1.349999904596648,
+            1.9010119448841571
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.5509883651142644,
+            1.2749998535755935,
+            2.830082660650511
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.5307333736861537,
+            1.3999999418891989,
+            1.5375425391077684
+          ]
+        },
+        {
+          "name": "vendor-shop-1:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-1",
+          "texture": true,
+          "halfExtents": [
+            2.154393583593354,
+            1.2999999523387555,
+            2.5801555439389325
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 4,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            14.075330574634137,
+            1.3999999418891989,
+            3.9318967061230836
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8621895042261762,
+            1.3999999761197777,
+            1.7556654411726527
+          ]
+        }
+      ]
+    },
+    {
+      "name": "east-market",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "Auto",
+      "telemetry": {
+        "fps": 3,
+        "frameMs": 354.2,
+        "drawCalls": 207,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.9,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "groups": [
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.4676448126105193,
+            1.3999999418891989,
+            1.4581049735472327
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8195653595100154,
+            1.3999999761197777,
+            1.5123708755995384
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.653053788626277,
+            1.2749998535755935,
+            2.1598966576169047
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            1.8820467589348198,
+            1.349999904596648,
+            1.8786927594927363
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 3,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            5.716769818420435,
+            1.3999999418891989,
+            18.06029881753933
+          ]
+        },
+        {
+          "name": "vendor-shop-1:vendor:base",
+          "count": 2,
+          "material": "vendor-shop-1",
+          "texture": true,
+          "halfExtents": [
+            4.1631644213362335,
+            1.2999999523387555,
+            16.62059513511857
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 2,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            8.286587988009869,
+            1.349999904596648,
+            17.89607284157157
+          ]
+        },
+        {
+          "name": "vendor-food-vendor:vendor:base",
+          "count": 1,
+          "material": "vendor-food-vendor",
+          "texture": true,
+          "halfExtents": [
+            1.9494324021522083,
+            1.2499998052080414,
+            2.325030008505097
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.6374930174639069,
+            1.3999999761197777,
+            1.8567564708280102
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.5509883651142644,
+            1.2749998535755935,
+            2.830082660650511
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 3,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            17.499421872907583,
+            1.349999904596648,
+            32.37018141408261
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.3775985405361766,
+            1.2749998535755935,
+            2.764482812854464
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.389636663509517,
+            1.3999999418891989,
+            1.4010971069933795
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.4045677192594734,
+            1.3999999761197777,
+            1.7736080141800734
+          ]
+        },
+        {
+          "name": "vendor-food-vendor:vendor:base",
+          "count": 1,
+          "material": "vendor-food-vendor",
+          "texture": true,
+          "halfExtents": [
+            2.5700196842360867,
+            1.2499998052080414,
+            2.357460749343687
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 2,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            11.438559833533873,
+            1.3999999418891989,
+            8.955252216214426
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8621895042261762,
+            1.3999999761197777,
+            1.7556654411726527
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.853506165391991,
+            1.2749998535755935,
+            2.7179146754312242
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            1.8979660374579908,
+            1.349999904596648,
+            1.9010119448841571
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.5509883651142644,
+            1.2749998535755935,
+            2.830082660650511
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.5307333736861537,
+            1.3999999418891989,
+            1.5375425391077684
+          ]
+        },
+        {
+          "name": "vendor-shop-1:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-1",
+          "texture": true,
+          "halfExtents": [
+            2.154393583593354,
+            1.2999999523387555,
+            2.5801555439389325
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 4,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            14.075330574634137,
+            1.3999999418891989,
+            3.9318967061230836
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8621895042261762,
+            1.3999999761197777,
+            1.7556654411726527
+          ]
+        }
+      ]
+    },
+    {
+      "name": "quiet-edge",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "quality": "Auto",
+      "telemetry": {
+        "fps": 3,
+        "frameMs": 336.3,
+        "drawCalls": 207,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.9,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "groups": [
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.4676448126105193,
+            1.3999999418891989,
+            1.4581049735472327
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8195653595100154,
+            1.3999999761197777,
+            1.5123708755995384
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.653053788626277,
+            1.2749998535755935,
+            2.1598966576169047
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            1.8820467589348198,
+            1.349999904596648,
+            1.8786927594927363
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 3,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            5.716769818420435,
+            1.3999999418891989,
+            18.06029881753933
+          ]
+        },
+        {
+          "name": "vendor-shop-1:vendor:base",
+          "count": 2,
+          "material": "vendor-shop-1",
+          "texture": true,
+          "halfExtents": [
+            4.1631644213362335,
+            1.2999999523387555,
+            16.62059513511857
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 2,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            8.286587988009869,
+            1.349999904596648,
+            17.89607284157157
+          ]
+        },
+        {
+          "name": "vendor-food-vendor:vendor:base",
+          "count": 1,
+          "material": "vendor-food-vendor",
+          "texture": true,
+          "halfExtents": [
+            1.9494324021522083,
+            1.2499998052080414,
+            2.325030008505097
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.6374930174639069,
+            1.3999999761197777,
+            1.8567564708280102
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.5509883651142644,
+            1.2749998535755935,
+            2.830082660650511
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 3,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            17.499421872907583,
+            1.349999904596648,
+            32.37018141408261
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.3775985405361766,
+            1.2749998535755935,
+            2.764482812854464
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.389636663509517,
+            1.3999999418891989,
+            1.4010971069933795
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.4045677192594734,
+            1.3999999761197777,
+            1.7736080141800734
+          ]
+        },
+        {
+          "name": "vendor-food-vendor:vendor:base",
+          "count": 1,
+          "material": "vendor-food-vendor",
+          "texture": true,
+          "halfExtents": [
+            2.5700196842360867,
+            1.2499998052080414,
+            2.357460749343687
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 2,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            11.438559833533873,
+            1.3999999418891989,
+            8.955252216214426
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8621895042261762,
+            1.3999999761197777,
+            1.7556654411726527
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.853506165391991,
+            1.2749998535755935,
+            2.7179146754312242
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            1.8979660374579908,
+            1.349999904596648,
+            1.9010119448841571
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.5509883651142644,
+            1.2749998535755935,
+            2.830082660650511
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.5307333736861537,
+            1.3999999418891989,
+            1.5375425391077684
+          ]
+        },
+        {
+          "name": "vendor-shop-1:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-1",
+          "texture": true,
+          "halfExtents": [
+            2.154393583593354,
+            1.2999999523387555,
+            2.5801555439389325
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 4,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            14.075330574634137,
+            1.3999999418891989,
+            3.9318967061230836
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8621895042261762,
+            1.3999999761197777,
+            1.7556654411726527
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "quality": "Performance",
+      "telemetry": {
+        "fps": 5,
+        "frameMs": 197.5,
+        "drawCalls": 93,
+        "shadowCalls": 0,
+        "forwardCalls": 0,
+        "chunks": 12,
+        "entities": 37,
+        "resolution": 0.65,
+        "players": 1,
+        "network": "online",
+        "x": -18,
+        "z": 24,
+        "heading": 0.25
+      },
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+      "groups": [
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.4676448126105193,
+            1.3999999418891989,
+            1.4581049735472327
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8195653595100154,
+            1.3999999761197777,
+            1.5123708755995384
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.653053788626277,
+            1.2749998535755935,
+            2.1598966576169047
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            1.8820467589348198,
+            1.349999904596648,
+            1.8786927594927363
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 3,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            5.716769818420435,
+            1.3999999418891989,
+            18.06029881753933
+          ]
+        },
+        {
+          "name": "vendor-shop-1:vendor:base",
+          "count": 2,
+          "material": "vendor-shop-1",
+          "texture": true,
+          "halfExtents": [
+            4.1631644213362335,
+            1.2999999523387555,
+            16.62059513511857
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 2,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            8.286587988009869,
+            1.349999904596648,
+            17.89607284157157
+          ]
+        },
+        {
+          "name": "vendor-food-vendor:vendor:base",
+          "count": 1,
+          "material": "vendor-food-vendor",
+          "texture": true,
+          "halfExtents": [
+            1.9494324021522083,
+            1.2499998052080414,
+            2.325030008505097
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.6374930174639069,
+            1.3999999761197777,
+            1.8567564708280102
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.5509883651142644,
+            1.2749998535755935,
+            2.830082660650511
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 3,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            17.499421872907583,
+            1.349999904596648,
+            32.37018141408261
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.3775985405361766,
+            1.2749998535755935,
+            2.764482812854464
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.389636663509517,
+            1.3999999418891989,
+            1.4010971069933795
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.4045677192594734,
+            1.3999999761197777,
+            1.7736080141800734
+          ]
+        },
+        {
+          "name": "vendor-food-vendor:vendor:base",
+          "count": 1,
+          "material": "vendor-food-vendor",
+          "texture": true,
+          "halfExtents": [
+            2.5700196842360867,
+            1.2499998052080414,
+            2.357460749343687
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 2,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            11.438559833533873,
+            1.3999999418891989,
+            8.955252216214426
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8621895042261762,
+            1.3999999761197777,
+            1.7556654411726527
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.853506165391991,
+            1.2749998535755935,
+            2.7179146754312242
+          ]
+        },
+        {
+          "name": "vendor-shop-3:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-3",
+          "texture": true,
+          "halfExtents": [
+            1.8979660374579908,
+            1.349999904596648,
+            1.9010119448841571
+          ]
+        },
+        {
+          "name": "vendor-shop-4:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-4",
+          "texture": true,
+          "halfExtents": [
+            2.5509883651142644,
+            1.2749998535755935,
+            2.830082660650511
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 1,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            1.5307333736861537,
+            1.3999999418891989,
+            1.5375425391077684
+          ]
+        },
+        {
+          "name": "vendor-shop-1:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-1",
+          "texture": true,
+          "halfExtents": [
+            2.154393583593354,
+            1.2999999523387555,
+            2.5801555439389325
+          ]
+        },
+        {
+          "name": "vendor-pos-umbrella:vendor:base",
+          "count": 4,
+          "material": "vendor-pos-umbrella",
+          "texture": true,
+          "halfExtents": [
+            14.075330574634137,
+            1.3999999418891989,
+            3.9318967061230836
+          ]
+        },
+        {
+          "name": "vendor-shop-2:vendor:base",
+          "count": 1,
+          "material": "vendor-shop-2",
+          "texture": true,
+          "halfExtents": [
+            1.8621895042261762,
+            1.3999999761197777,
+            1.7556654411726527
+          ]
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "errors": []
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "CityBuilding_1_",
+    "size": [
+      14.199990234375,
+      37.99477221257429,
+      14.20000030517578
+    ],
+    "materials": [
+      "default",
+      "bricks_red_2",
+      "WindowAtlas",
+      "concrete_grey"
+    ]
+  },
+  {
+    "name": "CityBuilding_2_",
+    "size": [
+      15.329980201721192,
+      15.012025146484376,
+      14.749990234375
+    ],
+    "materials": [
+      "default",
+      "bricks_red_2",
+      "WindowAtlas",
+      "concrete_grey"
+    ]
+  },
+  {
+    "name": "CityBuilding_3_",
+    "size": [
+      15.200009994506836,
+      26.96885986328125,
+      14.200000267028809
+    ],
+    "materials": [
+      "default",
+      "bricks_red_2",
+      "window_sashcase_flat_3",
+      "concrete_grey",
+      "WindowAtlas"
+    ]
+  },
+  {
+    "name": "CityBuilding_4_",
+    "size": [
+      136.2114404296875,
+      1.6482276916503906,
+      179.207275390625
+    ],
+    "materials": [
+      "default",
+      "SideWalks"
+    ]
+  }
+]

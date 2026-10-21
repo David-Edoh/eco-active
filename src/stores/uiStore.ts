@@ -1,29 +1,40 @@
 import { createStore } from "zustand/vanilla";
-
-export type GameStatus = "menu" | "loading" | "playing" | "paused" | "error";
-
+import type { PerformanceSnapshot, Quality } from "@/playcanvas/types";
+export type GameStatus = "loading" | "menu" | "playing" | "paused" | "error";
 export interface UIState {
   status: GameStatus;
-  inventoryOpen: boolean;
-  settingsOpen: boolean;
+  progress: number;
+  loadingMessage: string;
+  error: string;
+  stats: PerformanceSnapshot | null;
+  quality: Quality;
+  showPerformance: boolean;
 }
-
 export interface UIActions {
   setStatus: (status: GameStatus) => void;
-  setInventoryOpen: (open: boolean) => void;
-  setSettingsOpen: (open: boolean) => void;
+  setProgress: (loadingMessage: string, progress: number) => void;
+  setError: (error: string) => void;
+  setStats: (stats: PerformanceSnapshot) => void;
+  setQuality: (quality: Quality) => void;
+  togglePerformance: () => void;
 }
-
 export type UIStore = UIState & UIActions;
-
-// One instance per provider; never share mutable state between server requests.
 export function createUIStore() {
   return createStore<UIStore>()((set) => ({
-    status: "menu",
-    inventoryOpen: false,
-    settingsOpen: false,
+    status: "loading",
+    progress: 0,
+    loadingMessage: "Preparing your visit",
+    error: "",
+    stats: null,
+    quality: "auto",
+    showPerformance: false,
     setStatus: (status) => set({ status }),
-    setInventoryOpen: (inventoryOpen) => set({ inventoryOpen }),
-    setSettingsOpen: (settingsOpen) => set({ settingsOpen }),
+    setProgress: (loadingMessage, progress) =>
+      set({ loadingMessage, progress }),
+    setError: (error) => set({ error, status: "error" }),
+    setStats: (stats) => set({ stats }),
+    setQuality: (quality) => set({ quality }),
+    togglePerformance: () =>
+      set((s) => ({ showPerformance: !s.showPerformance })),
   }));
 }

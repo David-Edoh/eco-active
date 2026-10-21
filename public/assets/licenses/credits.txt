@@ -1,0 +1,25 @@
+ECO ACTIVE · TINUBU SQUARE
+
+Map data © OpenStreetMap contributors, ODbL.
+https://www.openstreetmap.org/copyright
+Extract downloaded 2026-10-21. Local metre projection; building heights inferred where absent.
+
+Environment: City.fbx and associated textures from the user-provided Advanced Multiplayer Template. Supplied meshes extracted, normalized and instanced. Original template notices included alongside this file.
+
+Muscular Stylized Man — RedicionArts / Redicion Studio.
+See character.txt for the original bundled license notice.
+
+80 American Sedan — Daniel Zhabotinsky, CC BY 4.0.
+https://creativecommons.org/licenses/by/4.0/
+See sedan.txt. Converted to GLB, interior removed, textures resized, body recolored.
+
+Tinubu Square landmark: custom interpretation using the 2014 photograph by Jeremy Weate (CC BY 2.0) as a visual reference. Photograph is not distributed in the game.
+https://commons.wikimedia.org/wiki/File:2014_Tinubu_Square_Lagos_Nigeria_14640600637.jpg
+
+This is a map-aligned playable interpretation. Supplied generic facades and inferred dimensions are not an exact architectural survey of Lagos.
+
+Additional vehicles: PioneerSW80 station wagon and Phoenix445 sports car from the supplied template, converted to GLB with interiors removed and shared materials. The wagon source folder contains no separate license notice; template notices are preserved. Sports car: American Muscle ’71 by Daniel Zhabotinsky, CC BY 4.0; see sports.txt for the original attribution and source link.
+
+Sky: City/Skybox/Textures/Afternoon_Skybox.hdr from the supplied template, resized offline and rendered as a cubemap. Photographic horizon is generic source scenery, not a surveyed Lagos skyline.
+
+Building variation: all three upright CityBuilding models from the supplied template, with original facade slots retained, vertex ambient shading and shared streetscape palettes. Placement uses OpenStreetMap IDs and explicitly documented height estimates. Trinity Church and CBN Lagos custom silhouettes are photo-informed interpretations, not surveyed replicas. Research links and confidence: docs/references/buildings/research.md; source provenance: building-assets.json. Source photos remain on their original websites and are not embedded as textures.

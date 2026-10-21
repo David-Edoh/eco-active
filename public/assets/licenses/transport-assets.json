@@ -1,0 +1,28 @@
+{
+  "source": "User-supplied Hide and Seek Unity project",
+  "models": {
+    "bus": {
+      "source": "Assets/Models/bus.fbx",
+      "texture": "Assets/Models/Textures/texture_pbr_20250901.png",
+      "size": [
+        2.410876750946045,
+        2.0999996413075817,
+        4.8661580085754395
+      ],
+      "triangles": 5227,
+      "bytes": 202592
+    },
+    "keke": {
+      "source": "Assets/Models/keke.fbx",
+      "texture": "Assets/Models/Textures/texture_pbr_20250901 2.png",
+      "size": [
+        1.550898015499115,
+        1.8499997668052046,
+        2.832235336303711
+      ],
+      "triangles": 11536,
+      "bytes": 441564
+    }
+  },
+  "conversion": "Original meshes merged by shared source albedo, ground-centred and scaled to estimated real-world dimensions. Eight-ray local vertex AO baked offline. Albedo capped at 1024px and encoded as opaque WebP; no KTX2 or GPU texture compression. Texture assignments resolved from Unity importer GUIDs. Geometry is static; moving traffic is driven by the game ECS, not Unity scripts. No separate asset-specific license in the supplied model folders; project README preserved in hide-and-seek-platformer-readme.txt."
+}

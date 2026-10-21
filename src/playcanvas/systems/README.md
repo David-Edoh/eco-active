@@ -1,8 +1,12 @@
-# Game systems
+# Systems
 
-Implement movement, AI, physics synchronization, and rendering synchronization
-here as they are introduced. Systems operate on the session's Miniplex world
-and are scheduled by GameBootstrap. No React or Zustand imports are allowed.
-PlayCanvas owns scene objects and physical simulation; Miniplex owns gameplay
-components. Define explicit synchronization ownership to avoid competing writes.
-No systems are implemented yet.
+CharacterAnimator poses the imported rig. TrafficSystem updates nearby cars each
+frame and distant cars at 5 Hz, drawing visible traffic with instancing.
+trafficRoutes builds closed walks through connected road segments with lane offsets
+and rounded junction/dead-end turns. ECS navigation progress consumes waypoint
+overshoot without resetting position. Vehicles retain state outside rendering range.
+PedestrianSystem creates/simulates characters only within 45 m.
+ResolutionController adjusts render scale from measured frame time.
+GameBootstrap schedules these systems outside React. ECS entities own gameplay
+positions; render transforms are projections. The current kinematic movement is
+not a rigid-body physics simulation. See docs/architecture.md for limits.

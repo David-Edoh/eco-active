@@ -1,0 +1,168 @@
+{
+  "models": {
+    "building-1": {
+      "size": [
+        14.2,
+        37.9948,
+        14.2
+      ],
+      "source": "CityBuilding_1_",
+      "role": "tall office with regular window grid"
+    },
+    "building-2": {
+      "size": [
+        15.33,
+        15.012,
+        14.75
+      ],
+      "source": "CityBuilding_2_",
+      "role": "low to mid-rise commercial block"
+    },
+    "building-3": {
+      "size": [
+        15.2,
+        26.9689,
+        14.2
+      ],
+      "source": "CityBuilding_3_",
+      "role": "mid-rise masonry block with mixed window types"
+    },
+    "tinubu-trinity": {
+      "size": [
+        38.5,
+        27,
+        23
+      ],
+      "source": "authored landmark absent from supplied pack",
+      "role": "photo-informed inverted-ark church silhouette"
+    },
+    "cbn-lagos": {
+      "size": [
+        48.099998474121094,
+        99.9000015258789,
+        40.220001220703125
+      ],
+      "source": "authored landmark absent from supplied pack",
+      "role": "photo-informed glass tower and parking podium"
+    },
+    "building-low-1": {
+      "size": [
+        15.229991912841797,
+        3.2220258712768555,
+        14.749988079071045
+      ],
+      "source": "CityBuilding_2_ (whole floor bands removed; source roof retained)",
+      "role": "1-storey commercial derivative"
+    },
+    "building-low-2": {
+      "size": [
+        15.229991912841797,
+        5.892025947570801,
+        14.749988079071045
+      ],
+      "source": "CityBuilding_2_ (whole floor bands removed; source roof retained)",
+      "role": "2-storey commercial derivative"
+    },
+    "building-low-3": {
+      "size": [
+        15.32998275756836,
+        9.672025680541992,
+        14.74998950958252
+      ],
+      "source": "CityBuilding_2_ (whole floor bands removed; source roof retained)",
+      "role": "3-storey commercial derivative"
+    },
+    "building-low-4": {
+      "size": [
+        15.32998275756836,
+        12.342025756835938,
+        14.74998950958252
+      ],
+      "source": "CityBuilding_2_ (whole floor bands removed; source roof retained)",
+      "role": "4-storey commercial derivative"
+    }
+  },
+  "profiles": {
+    "office-ivory": {
+      "model": "building-1",
+      "wall": "#d8d8cf",
+      "brick": "#c6c4b9",
+      "trim": "#e6e4db",
+      "glass": "#5d7887"
+    },
+    "office-sand": {
+      "model": "building-1",
+      "wall": "#c9bfaa",
+      "brick": "#ac9983",
+      "trim": "#dfd3bc",
+      "glass": "#53636b"
+    },
+    "commercial-cream": {
+      "model": "building-2",
+      "wall": "#ded5bc",
+      "brick": "#b8ac93",
+      "trim": "#ebe6d9",
+      "glass": "#607779",
+      "levelModels": {
+        "1": "building-low-1",
+        "2": "building-low-2",
+        "3": "building-low-3",
+        "4": "building-low-4"
+      }
+    },
+    "commercial-weathered": {
+      "model": "building-2",
+      "wall": "#b3b7ae",
+      "brick": "#898e84",
+      "trim": "#c6c5b9",
+      "glass": "#526863",
+      "levelModels": {
+        "1": "building-low-1",
+        "2": "building-low-2",
+        "3": "building-low-3",
+        "4": "building-low-4"
+      }
+    },
+    "market-ochre": {
+      "model": "building-3",
+      "wall": "#c7ad83",
+      "brick": "#aa8061",
+      "trim": "#e2cfaa",
+      "glass": "#51665f"
+    },
+    "market-grey": {
+      "model": "building-3",
+      "wall": "#b5bcb9",
+      "brick": "#939b98",
+      "trim": "#d8d8cc",
+      "glass": "#4e6a6c"
+    },
+    "trinity": {
+      "model": "tinubu-trinity",
+      "wall": "#e6dcc3",
+      "brick": "#b4a68a",
+      "trim": "#efe8d9",
+      "glass": "#8b8067"
+    },
+    "cbn-glass": {
+      "model": "cbn-lagos",
+      "wall": "#c7bca9",
+      "brick": "#aaa08d",
+      "trim": "#dfd4bf",
+      "glass": "#3e687f"
+    },
+    "commercial-ochre": {
+      "model": "building-2",
+      "wall": "#d4c2a3",
+      "brick": "#b79572",
+      "trim": "#e3d6bd",
+      "glass": "#5b6e65",
+      "levelModels": {
+        "1": "building-low-1",
+        "2": "building-low-2",
+        "3": "building-low-3",
+        "4": "building-low-4"
+      }
+    }
+  }
+}

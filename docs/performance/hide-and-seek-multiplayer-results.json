@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "appearances": [
+    [
+      "character-adebayo",
+      "character-adebayo"
+    ],
+    [
+      "character-adebayo",
+      "character-adebayo"
+    ]
+  ],
+  "telemetry": [
+    {
+      "fps": 2,
+      "frameMs": 643.9,
+      "drawCalls": 273,
+      "shadowCalls": 0,
+      "forwardCalls": 0,
+      "chunks": 12,
+      "entities": 38,
+      "resolution": 1,
+      "players": 2,
+      "network": "online",
+      "x": -18,
+      "z": 24,
+      "heading": 0.25
+    },
+    {
+      "fps": 1,
+      "frameMs": 712.1,
+      "drawCalls": 273,
+      "shadowCalls": 0,
+      "forwardCalls": 0,
+      "chunks": 12,
+      "entities": 38,
+      "resolution": 1,
+      "players": 2,
+      "network": "online",
+      "x": -18,
+      "z": 24,
+      "heading": 0.25
+    }
+  ],
+  "errors": [],
+  "viewport": [
+    1280,
+    800
+  ],
+  "note": "Two headless Chrome clients on the same host; networking redirected to the isolated updated QA service."
+}

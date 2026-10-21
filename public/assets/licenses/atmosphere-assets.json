@@ -1,0 +1,9 @@
+{
+  "source": "Advanced Multiplayer Template",
+  "models": {
+    "wagon": "Models/SedanCar2/model/PioneerSW80.fbx",
+    "sports": "Models/SportCar2/model/Phoenix445.fbx"
+  },
+  "sky": "Models/City/Skybox/Textures/Afternoon_Skybox.hdr",
+  "conversion": "Exterior meshes, normalized to 4.7m length; HDR panorama capped at 1024px width. Existing template notices apply."
+}

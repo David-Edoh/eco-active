@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node scripts/dev.mjs",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "node scripts/dev.mjs --production",
+    "lint": "eslint",
+    "dev:web": "next dev",
+    "start:server": "node src/server/multiplayer.mjs",
+    "test:browser": "node scripts/test-browser.mjs",
+    "world:build": "python3 scripts/build-world.py"
   },
   "dependencies": {
     "miniplex": "^2.0.0",
@@ -14,16 +18,25 @@
     "playcanvas": "^2.23.3",
     "react": "19.3.0",
     "react-dom": "19.3.0",
+    "ws": "^8.22.0",
     "zustand": "^5.0.15"
   },
   "devDependencies": {
+    "@playwright/test": "^1.64.1",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.186.0",
+    "@types/ws": "^8.18.2",
+    "clipper-lib": "^6.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.4.2",
+    "prettier": "^3.9.10",
     "tailwindcss": "^4",
+    "three": "^0.186.1",
+    "three-mesh-bvh": "^0.9.16",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }

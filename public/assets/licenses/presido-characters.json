@@ -1,0 +1,62 @@
+{
+  "source": "User-supplied Presido Unity project",
+  "conversion": "Original skinned meshes and albedo atlases; textures capped at 1024px. Existing StarterAssets locomotion retargeted at 30 Hz, including each separate accessory skeleton. No source-specific character license was found; supplied third-party notice preserved. Runtime uses only local converted files.",
+  "characters": [
+    {
+      "id": "ratel",
+      "label": "Ratel Presido",
+      "model": "Assets/Models/vdm.fbx",
+      "texture": "Assets/Models/vdm/texture_pbr_20250901.png",
+      "height": 1.8,
+      "bytes": 2252008,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Jump"
+      ]
+    },
+    {
+      "id": "peter-obi",
+      "label": "Peter Obi",
+      "model": "Assets/Models/peter_obi_2.fbx",
+      "texture": "Assets/Models/peter_mat/texture_pbr_20250901.png",
+      "height": 1.8,
+      "bytes": 2385156,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Jump"
+      ]
+    },
+    {
+      "id": "indaboski",
+      "label": "Indaboski Bahose",
+      "model": "Assets/Models/indaboski.fbx",
+      "texture": "Assets/Models/indaboski/texture_pbr_20250901.png",
+      "height": 1.85,
+      "bytes": 1552636,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Jump"
+      ]
+    },
+    {
+      "id": "bola-tinubu",
+      "label": "Bola Tinubu",
+      "model": "Assets/Models/bola_2.fbx",
+      "texture": "Assets/Models/bola_mat/texture_pbr_20250901.png",
+      "height": 1.72,
+      "bytes": 2648424,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Jump"
+      ]
+    }
+  ]
+}

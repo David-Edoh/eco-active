@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "appearances": [
+    [
+      "character-bola-tinubu",
+      "character-indaboski"
+    ],
+    [
+      "character-bola-tinubu",
+      "character-indaboski"
+    ]
+  ],
+  "telemetry": [
+    {
+      "fps": 2,
+      "frameMs": 578.8,
+      "drawCalls": 271,
+      "shadowCalls": 0,
+      "forwardCalls": 0,
+      "chunks": 12,
+      "entities": 38,
+      "resolution": 1,
+      "players": 2,
+      "network": "online",
+      "x": -18,
+      "z": 24,
+      "heading": 0.25
+    },
+    {
+      "fps": 2,
+      "frameMs": 584.1,
+      "drawCalls": 271,
+      "shadowCalls": 0,
+      "forwardCalls": 0,
+      "chunks": 12,
+      "entities": 38,
+      "resolution": 1,
+      "players": 2,
+      "network": "online",
+      "x": -18,
+      "z": 24,
+      "heading": 0.25
+    }
+  ],
+  "errors": [],
+  "viewport": [
+    1280,
+    800
+  ],
+  "note": "Two headless Chrome clients on the same host; networking redirected to the isolated updated QA service."
+}

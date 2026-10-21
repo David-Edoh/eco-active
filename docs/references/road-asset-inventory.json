@@ -1,0 +1,508 @@
+{
+  "source": "Advanced Multiplayer Template/Models/City/Models/City.fbx",
+  "meshes": [
+    {
+      "name": "CityConstructionObject__1_",
+      "vertices": 348,
+      "dimensionsMetres": [
+        1.4869296796810658,
+        0.09080598831176757,
+        86.1095703125
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__2_",
+      "vertices": 1560,
+      "dimensionsMetres": [
+        38.003062133789065,
+        0.08787727355957031,
+        37.752773437500004
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__3_",
+      "vertices": 432,
+      "dimensionsMetres": [
+        15.85734504699707,
+        0.0809190583229065,
+        4.592480984594499
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__4_",
+      "vertices": 36,
+      "dimensionsMetres": [
+        0.478759765625,
+        0.06616923332214356,
+        15.751643142700196
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__5_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.660923309326172,
+        0.0792621660232544,
+        15.658092727661133
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__6_",
+      "vertices": 348,
+      "dimensionsMetres": [
+        37.913077392578124,
+        0.09080598831176757,
+        1.661472470269075
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__7_",
+      "vertices": 1008,
+      "dimensionsMetres": [
+        38.001985473632814,
+        0.08787655830383301,
+        36.024951171875
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__8_",
+      "vertices": 1320,
+      "dimensionsMetres": [
+        38.002161254882814,
+        0.08787655830383301,
+        36.024951171875
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__9_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.660923309326172,
+        0.0792621660232544,
+        15.658092727661133
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__10_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.658092727661138,
+        0.0792621660232544,
+        15.660923309326172
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__11_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.660923309326172,
+        0.0792621660232544,
+        15.658092727661133
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__12_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.658092727661138,
+        0.0792621660232544,
+        15.660923309326172
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__13_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.660923309326172,
+        0.0792621660232544,
+        15.658092727661133
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__14_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.658092727661138,
+        0.0792621660232544,
+        15.660923309326172
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__15_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        14.177249450683593,
+        0.0792621660232544,
+        15.658092727661133
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__16_",
+      "vertices": 348,
+      "dimensionsMetres": [
+        37.913077392578124,
+        0.09080598831176757,
+        1.6614724702690729
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__17_",
+      "vertices": 1008,
+      "dimensionsMetres": [
+        38.001985473632814,
+        0.08787655830383301,
+        36.024951171875
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__18_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.660923309326172,
+        0.0792621660232544,
+        15.658092727661133
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__19_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.658092727661138,
+        0.0792621660232544,
+        15.660923309326172
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__20_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.660923309326172,
+        0.0792621660232544,
+        15.658092727661133
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__21_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.658092727661138,
+        0.0792621660232544,
+        15.660923309326172
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__22_",
+      "vertices": 348,
+      "dimensionsMetres": [
+        37.913077392578124,
+        0.09080598831176757,
+        1.6614724702690729
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__23_",
+      "vertices": 1008,
+      "dimensionsMetres": [
+        38.001985473632814,
+        0.08787655830383301,
+        36.024951171875
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__24_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.660923309326172,
+        0.0792621660232544,
+        15.658092727661133
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__25_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.658092727661138,
+        0.0792621660232544,
+        15.660923309326172
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__26_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.660923309326172,
+        0.0792621660232544,
+        15.658092727661133
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__27_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.658092727661138,
+        0.0792621660232544,
+        15.660923309326172
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__28_",
+      "vertices": 204,
+      "dimensionsMetres": [
+        15.660923309326172,
+        0.0792621660232544,
+        15.658092727661135
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__29_",
+      "vertices": 36,
+      "dimensionsMetres": [
+        0.478759765625,
+        0.06616923332214356,
+        15.751643142700196
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__30_",
+      "vertices": 432,
+      "dimensionsMetres": [
+        15.85734504699707,
+        0.0809190583229065,
+        4.592480984594499
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__31_",
+      "vertices": 1560,
+      "dimensionsMetres": [
+        38.00306213378907,
+        0.08787727355957031,
+        37.752773437500004
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__32_",
+      "vertices": 348,
+      "dimensionsMetres": [
+        37.913077392578124,
+        0.09080598831176757,
+        1.661472470269075
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__33_",
+      "vertices": 348,
+      "dimensionsMetres": [
+        1.4869296796810658,
+        0.09080598831176757,
+        35.109570312500004
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__34_",
+      "vertices": 36,
+      "dimensionsMetres": [
+        0.5247039641320999,
+        0.10053349961373101,
+        15.704235500611123
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__35_",
+      "vertices": 36,
+      "dimensionsMetres": [
+        0.5247037538730319,
+        0.10050436973571777,
+        15.70423530727625
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityConstructionObject__36_",
+      "vertices": 348,
+      "dimensionsMetres": [
+        29.314132660333243,
+        0.09080598831176757,
+        26.572657497130795
+      ],
+      "materials": [
+        "SideWalks"
+      ]
+    },
+    {
+      "name": "CityBuilding_1_",
+      "vertices": 21132,
+      "dimensionsMetres": [
+        14.199990234375,
+        37.99477221257429,
+        14.20000030517578
+      ],
+      "materials": [
+        "default",
+        "bricks_red_2",
+        "WindowAtlas",
+        "concrete_grey"
+      ]
+    },
+    {
+      "name": "door_model",
+      "vertices": 36,
+      "dimensionsMetres": [
+        0.11002354450411758,
+        2.05516542161168,
+        1.1654300790448178
+      ],
+      "materials": [
+        "door_external_green_2"
+      ]
+    },
+    {
+      "name": "CityBuilding_2_",
+      "vertices": 8970,
+      "dimensionsMetres": [
+        15.329980201721192,
+        15.012025146484376,
+        14.749990234375
+      ],
+      "materials": [
+        "default",
+        "bricks_red_2",
+        "WindowAtlas",
+        "concrete_grey"
+      ]
+    },
+    {
+      "name": "CityBuilding_3_",
+      "vertices": 16164,
+      "dimensionsMetres": [
+        15.200009994506836,
+        26.96885986328125,
+        14.200000267028809
+      ],
+      "materials": [
+        "default",
+        "bricks_red_2",
+        "window_sashcase_flat_3",
+        "concrete_grey",
+        "WindowAtlas"
+      ]
+    },
+    {
+      "name": "CityBuilding_4_",
+      "vertices": 2292,
+      "dimensionsMetres": [
+        136.2114404296875,
+        1.6482276916503906,
+        179.207275390625
+      ],
+      "materials": [
+        "default",
+        "SideWalks"
+      ]
+    }
+  ]
+}

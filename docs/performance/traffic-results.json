@@ -1,0 +1,54 @@
+{
+  "cpu": "Apple M2",
+  "platform": "darwin",
+  "browser": "156.0.8078.4",
+  "notes": "Headless Chrome; mobile is viewport/touch emulation, not physical hardware.",
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "quality": "auto",
+    "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "fps": 3,
+    "frameMs": 311.1,
+    "drawCalls": 178,
+    "shadowCalls": 67,
+    "forwardCalls": 111,
+    "triangles": 545755,
+    "chunks": 12,
+    "entities": 16,
+    "resolution": 0.8,
+    "players": 1,
+    "network": "online",
+    "x": -18,
+    "z": 24,
+    "heading": 0.25,
+    "trafficCount": 12,
+    "errors": []
+  },
+  "mobile": {
+    "viewport": {
+      "width": 412,
+      "height": 915
+    },
+    "quality": "auto",
+    "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "fps": 7,
+    "frameMs": 150.3,
+    "drawCalls": 178,
+    "shadowCalls": 67,
+    "forwardCalls": 111,
+    "triangles": 545755,
+    "chunks": 12,
+    "entities": 16,
+    "resolution": 0.7,
+    "players": 1,
+    "network": "online",
+    "x": -18,
+    "z": 24,
+    "heading": 0.25,
+    "trafficCount": 12,
+    "errors": []
+  }
+}

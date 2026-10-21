@@ -1,0 +1,50 @@
+{
+  "cpu": "Apple M2",
+  "platform": "darwin",
+  "browser": "156.0.8078.4",
+  "quality": "Auto",
+  "viewport": [
+    1440,
+    900
+  ],
+  "notes": "Headless desktop rendering; mobile is viewport/touch emulation, not physical phone data.",
+  "states": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "telemetry": {
+    "fps": 3,
+    "frameMs": 315.4,
+    "drawCalls": 289,
+    "shadowCalls": 0,
+    "forwardCalls": 0,
+    "chunks": 12,
+    "entities": 37,
+    "resolution": 0.9,
+    "players": 1,
+    "network": "online",
+    "x": -18,
+    "z": 24,
+    "heading": 0.25
+  },
+  "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+  "mobileTelemetry": {
+    "fps": 2,
+    "frameMs": 469.7,
+    "drawCalls": 147,
+    "shadowCalls": 0,
+    "forwardCalls": 0,
+    "chunks": 12,
+    "entities": 37,
+    "resolution": 1,
+    "players": 1,
+    "network": "online",
+    "x": -18,
+    "z": 24,
+    "heading": 0.25
+  },
+  "passed": true,
+  "errors": []
+}

@@ -1,0 +1,24 @@
+{
+  "source": "User-provided Advanced Multiplayer Template",
+  "conversion": "FBX geometry converted to GLB; static parts merged by material; textures resized to <=1024 and WebP encoded. Car interior omitted.",
+  "models": [
+    "City/Models/City.fbx",
+    "SedanCar/Negotiator80.fbx",
+    "Character/muscular stylized man/Rigged/muscular stylized man.fbx"
+  ],
+  "textures": {
+    "stone": "Models/City/Textures/png/BrickHouse.png",
+    "asphalt": "Models/City/Textures/png/Road.png",
+    "concrete": "Models/City/Textures/png/concrete.png",
+    "paving": "Models/City/Textures/png/Brick.png",
+    "windows": "Models/City/Textures/png/BuildingWindows02.png",
+    "window": "Models/City/Textures/png/BuildingWindows01.png",
+    "car-bottom": "Models/SedanCar/textures/UCB_BOTTOM_DIF.png",
+    "car-wheel": "Models/SedanCar/textures/RIMSTOCK_07_1_dif.png",
+    "car-lights": "Models/SedanCar/textures/Riverside88_lights_dif.png",
+    "shirt": "Models/Character/muscular stylized man/OutfitStyles/Outfit0/tshart_and_body_Base_Color - Outfit0.png",
+    "trousers": "Models/Character/muscular stylized man/OutfitStyles/Outfit0/pant_and_boots_Base_Color - Outfit0.png",
+    "hair": "Models/Character/muscular stylized man/OutfitStyles/Outfit0/hair1_Base_Color - Outfit0.png",
+    "head": "Models/Character/muscular stylized man/texture/head_Base_Color.png"
+  }
+}

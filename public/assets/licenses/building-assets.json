@@ -1,0 +1,12 @@
+{
+  "source": "User-supplied Advanced Multiplayer Template / Models/City/Models/City.fbx",
+  "localSource": "src/assets/models/roads/city-source.fbx",
+  "sourceBuildings": [
+    "CityBuilding_1_",
+    "CityBuilding_2_",
+    "CityBuilding_3_"
+  ],
+  "conversion": "Original facade material slots preserved; one- to four-storey derivatives remove source floor bands and retain the roof; shared geometry, baked vertex ambient shading, map-fitted placements. Custom Trinity and CBN silhouettes use the supplied local materials, with measured CBN height but estimated other dimensions.",
+  "referenceManifest": "docs/references/buildings/research.md",
+  "notice": "Existing template-notices.txt and credits.txt apply. Photographs are research references, not redistributed runtime textures."
+}

@@ -1,0 +1,4655 @@
+[
+  {
+    "id": "482032594",
+    "name": "Union Bank Building",
+    "model": "building-1",
+    "profile": "office-ivory",
+    "height": 124.0,
+    "heightSource": "OSM height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -181.05388621393797,
+        136.5785079999787
+      ],
+      [
+        -160.22516751031498,
+        154.67914000001718
+      ],
+      [
+        -181.91667965998465,
+        179.6259519999745
+      ],
+      [
+        -188.6420439572735,
+        187.36269200001774
+      ],
+      [
+        -209.45970120647826,
+        169.27319200001048
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "544005149",
+    "name": null,
+    "model": "building-1",
+    "profile": "office-ivory",
+    "height": 60.0,
+    "heightSource": "OSM height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -172.27109139151753,
+        69.118588000041
+      ],
+      [
+        -162.82460930287328,
+        83.79056400005507
+      ],
+      [
+        -119.57432245679836,
+        55.92716800002627
+      ],
+      [
+        -129.02080454544256,
+        41.255192000012215
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "544005150",
+    "name": "CBN Lagos Office",
+    "model": "cbn-lagos",
+    "profile": "cbn-glass",
+    "height": 99.9,
+    "heightSource": "builder specification: Julius Berger, 99.9 m; OSM rounded height 100 m",
+    "appearanceSource": "photo-informed massing; footprint association inferred from mapped height and Custom Street location",
+    "footprint": [
+      [
+        -204.11701871372813,
+        64.71031600003784
+      ],
+      [
+        -200.1127722077455,
+        64.49880800003794
+      ],
+      [
+        -196.2965704272167,
+        63.2631560000333
+      ],
+      [
+        -192.94494973303964,
+        61.07015200001349
+      ],
+      [
+        -190.2570163049881,
+        58.09790799998364
+      ],
+      [
+        -188.4429377774506,
+        54.52453600004773
+      ],
+      [
+        -187.61332869470772,
+        50.606072000033926
+      ],
+      [
+        -187.82349632899798,
+        46.598552000066995
+      ],
+      [
+        -189.06237922585407,
+        42.79140800006875
+      ],
+      [
+        -191.2414857498318,
+        39.42954400003387
+      ],
+      [
+        -194.21701699319954,
+        36.7467320000247
+      ],
+      [
+        -197.78986677613423,
+        34.9322159999787
+      ],
+      [
+        -201.71668310104187,
+        34.09731600001031
+      ],
+      [
+        -205.72092960697535,
+        34.30882400001021
+      ],
+      [
+        -209.5260699330859,
+        35.544476000014846
+      ],
+      [
+        -212.88875208173033,
+        37.72634800000343
+      ],
+      [
+        -215.57668550978187,
+        40.709724000064504
+      ],
+      [
+        -217.39076403731937,
+        44.28309600000041
+      ],
+      [
+        -218.22037312006225,
+        48.20156000001422
+      ],
+      [
+        -223.27545779744713,
+        54.05699200002193
+      ],
+      [
+        -211.98171281796158,
+        64.50994000006915
+      ],
+      [
+        -210.23400301703174,
+        62.70655600005437
+      ],
+      [
+        -208.03277358416838,
+        63.87541600006944
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [
+      "https://www.julius-berger.com/references/central-bank-of-nigeria-lagos-office",
+      "https://commons.wikimedia.org/wiki/File:2014_Tinubu_Square_Lagos_Nigeria_14640600637.jpg"
+    ],
+    "confidence": "medium: published overall height; estimated wing/podium dimensions"
+  },
+  {
+    "id": "544005153",
+    "name": null,
+    "model": "building-1",
+    "profile": "office-ivory",
+    "height": 83.0,
+    "heightSource": "OSM height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -123.56750750831361,
+        128.34082800001372
+      ],
+      [
+        -133.68873831755073,
+        112.93414000001562
+      ],
+      [
+        -106.1125324078024,
+        93.80936400007127
+      ],
+      [
+        -95.30549142350506,
+        109.2605799999965
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598611753",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        179.64908150051366,
+        -173.0580719999463
+      ],
+      [
+        172.82416411326423,
+        -166.23415599999106
+      ],
+      [
+        166.44170490353008,
+        -170.38639199996834
+      ],
+      [
+        179.64908150051366,
+        -182.99894799994172
+      ],
+      [
+        180.2795844033845,
+        -182.6649879999939
+      ],
+      [
+        186.47399888771398,
+        -179.43670799993814
+      ],
+      [
+        182.01623274989612,
+        -172.0227960000092
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598614977",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        144.32985748527983,
+        -178.95803199998
+      ],
+      [
+        152.15030577179124,
+        -184.07875200000365
+      ],
+      [
+        164.14092238075526,
+        -165.80000799996003
+      ],
+      [
+        156.32047409429293,
+        -160.66815600000405
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598614978",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        155.91120028013063,
+        -187.89702799993424
+      ],
+      [
+        158.28941298393133,
+        -189.37758399993356
+      ],
+      [
+        167.03902344309705,
+        -180.772548000026
+      ],
+      [
+        162.58125730523008,
+        -178.40143200000108
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620344",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        101.85387244975834,
+        -176.98766799999132
+      ],
+      [
+        110.82471199763259,
+        -171.19902799997317
+      ],
+      [
+        105.11700150849131,
+        -162.36022000000327
+      ],
+      [
+        96.14616196061705,
+        -168.1488600000214
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620345",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        116.2116403081048,
+        -173.5701439999981
+      ],
+      [
+        124.5962227708794,
+        -168.30470799996408
+      ],
+      [
+        115.81342794840982,
+        -154.32291600000696
+      ],
+      [
+        107.43990694010259,
+        -159.57722000000973
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620348",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        119.79555154550685,
+        -149.13540399999374
+      ],
+      [
+        112.76046652396714,
+        -135.554363999974
+      ],
+      [
+        106.86471130942117,
+        -138.61566399995695
+      ],
+      [
+        109.02169492451334,
+        -142.77903199996544
+      ],
+      [
+        104.90683387420103,
+        -144.91637599992802
+      ],
+      [
+        109.78493528059946,
+        -154.32291600000696
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620350",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        137.206280828296,
+        -174.13787600000825
+      ],
+      [
+        142.73700804645082,
+        -178.34577199994385
+      ],
+      [
+        149.84952324901644,
+        -168.9837599999898
+      ],
+      [
+        144.32985748527983,
+        -164.78699599998652
+      ],
+      [
+        140.9671753366354,
+        -169.1952679999897
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620352",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        129.50750854058163,
+        -167.56999599998005
+      ],
+      [
+        134.85019103333178,
+        -161.04664399997785
+      ],
+      [
+        126.2443794818978,
+        -152.58632399998174
+      ],
+      [
+        120.4592388116815,
+        -158.07439999994799
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620354",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        137.206280828296,
+        -174.13787600000825
+      ],
+      [
+        130.20438017010923,
+        -168.81678000001588
+      ],
+      [
+        133.96527467844862,
+        -163.87417199999734
+      ],
+      [
+        140.9671753366354,
+        -169.1952679999897
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620356",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        97.53990521957398,
+        -128.58573200000842
+      ],
+      [
+        102.06404008404861,
+        -138.97188799996718
+      ],
+      [
+        106.28951567873975,
+        -137.13510799995763
+      ],
+      [
+        101.7653808142651,
+        -126.74895199999884
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620358",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -53.5706238351841,
+        -104.02853999995727
+      ],
+      [
+        -41.834420678232426,
+        -122.70803599993826
+      ],
+      [
+        -32.188832409765276,
+        -116.75241599994621
+      ],
+      [
+        -44.013527202210184,
+        -97.5608480000123
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620360",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-weathered",
+    "height": 13.2,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        93.01577035514849,
+        -163.07266800002373
+      ],
+      [
+        109.03275637893157,
+        -155.52517200001682
+      ],
+      [
+        103.52415206966232,
+        -143.82543999993374
+      ],
+      [
+        106.49968331303002,
+        -142.42280799995518
+      ],
+      [
+        104.51968296892429,
+        -138.23717599998315
+      ],
+      [
+        91.43398237073772,
+        -144.4043039999751
+      ],
+      [
+        93.5909659858299,
+        -148.96842400001984
+      ],
+      [
+        87.68414931681657,
+        -151.75142400001334
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620362",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        75.29532034810848,
+        -116.64109599993066
+      ],
+      [
+        77.8726392317812,
+        -120.99370799997547
+      ],
+      [
+        91.6662729139136,
+        -112.8339519999324
+      ],
+      [
+        89.08895403024086,
+        -108.48133999998645
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620364",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        98.4358830289245,
+        -99.3642319999282
+      ],
+      [
+        103.25867716318263,
+        -109.73925599995465
+      ],
+      [
+        108.50180656597219,
+        -107.31247999997137
+      ],
+      [
+        103.67901243176318,
+        -96.92632400001258
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620365",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        87.60671913574157,
+        -125.91405199993159
+      ],
+      [
+        92.35208308892472,
+        -135.554363999974
+      ],
+      [
+        98.54649757330331,
+        -132.5041960000222
+      ],
+      [
+        93.80113362012018,
+        -122.86388399997982
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620367",
+    "name": null,
+    "model": "building-low-1",
+    "profile": "commercial-ochre",
+    "height": 3.3,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        138.99823644699703,
+        -136.25567999996323
+      ],
+      [
+        147.4602490907484,
+        -131.21288399996035
+      ],
+      [
+        142.70382368314702,
+        -119.34617200000226
+      ],
+      [
+        131.28840270486444,
+        -121.1272919999546
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620369",
+    "name": null,
+    "model": "building-low-1",
+    "profile": "commercial-ochre",
+    "height": 3.3,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        129.06505036316463,
+        -145.30599599993306
+      ],
+      [
+        134.85019103333178,
+        -141.59904000001802
+      ],
+      [
+        127.87041328403059,
+        -121.1272919999546
+      ],
+      [
+        116.59879121338153,
+        -124.97896399997884
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620371",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        129.80616781036517,
+        -149.16879999998852
+      ],
+      [
+        141.52024805848035,
+        -140.85319600000275
+      ],
+      [
+        147.4602490907484,
+        -148.5676719999836
+      ],
+      [
+        137.0735433750316,
+        -157.17270799999002
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620373",
+    "name": null,
+    "model": "building-low-1",
+    "profile": "commercial-ochre",
+    "height": 3.3,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        171.48572812649672,
+        -136.70096000002547
+      ],
+      [
+        175.78863390221372,
+        -131.80287999993408
+      ],
+      [
+        168.81991760733072,
+        -123.79897199993255
+      ],
+      [
+        159.91544678606414,
+        -125.1348120000204
+      ],
+      [
+        157.53723408226344,
+        -128.39648799997207
+      ],
+      [
+        167.9239397979802,
+        -137.59151999995223
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620375",
+    "name": null,
+    "model": "building-low-1",
+    "profile": "commercial-ochre",
+    "height": 3.3,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        148.48896435336331,
+        -126.61536800001971
+      ],
+      [
+        156.95097699716376,
+        -120.38144799993933
+      ],
+      [
+        154.42896538568044,
+        -115.63921599998835
+      ],
+      [
+        144.63957820948156,
+        -117.4203359999407
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620378",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        152.34941195161414,
+        -144.4154360000063
+      ],
+      [
+        157.6920944443643,
+        -141.4543240000077
+      ],
+      [
+        155.17008283288098,
+        -133.2945679999646
+      ],
+      [
+        147.3053887286475,
+        -136.1109639999529
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620386",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        165.25812927881427,
+        -156.58271200001633
+      ],
+      [
+        177.270868796713,
+        -147.83295999999953
+      ],
+      [
+        170.6008117715644,
+        -137.8920840000041
+      ],
+      [
+        157.2496362669473,
+        -145.00543199998003
+      ],
+      [
+        162.06136894673807,
+        -151.96293200001324
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620389",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        156.7961166350138,
+        -154.65687599995476
+      ],
+      [
+        162.06136894673807,
+        -151.96293200001324
+      ],
+      [
+        156.53064172858325,
+        -144.30411599999076
+      ],
+      [
+        151.90695377419715,
+        -146.6418360000209
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620392",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        173.56528156051388,
+        -162.81663199999784
+      ],
+      [
+        170.3021525017809,
+        -159.25439199999428
+      ],
+      [
+        175.1913153626467,
+        -154.35631200000174
+      ],
+      [
+        178.907964053264,
+        -159.25439199999428
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598620394",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        168.0788001600811,
+        -167.11358399998545
+      ],
+      [
+        172.82416411326423,
+        -163.70719200002344
+      ],
+      [
+        168.96371651501337,
+        -159.0985439999527
+      ],
+      [
+        163.91969329204673,
+        -163.10606400001853
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "598656262",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-cream",
+    "height": 9.899999999999999,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -123.79979805148947,
+        196.33508400006565
+      ],
+      [
+        -112.15208653003103,
+        189.8673920000218
+      ],
+      [
+        -105.22761605287012,
+        170.56450399997345
+      ],
+      [
+        -112.15208653003103,
+        157.97421200006252
+      ],
+      [
+        -131.03398925285208,
+        152.51953199999218
+      ],
+      [
+        -144.04225966996367,
+        157.76270400006263
+      ],
+      [
+        -147.02885236779875,
+        170.78714400000456
+      ],
+      [
+        -148.86505380422182,
+        178.7465239999801
+      ],
+      [
+        -142.1507509613512,
+        191.3368159999899
+      ],
+      [
+        -135.17097321205,
+        193.24038799998903
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "669978762",
+    "name": "Bookshop House",
+    "model": "building-1",
+    "profile": "office-sand",
+    "height": 49.5,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        110.32694654797704,
+        174.9282480000495
+      ],
+      [
+        160.51276532563114,
+        168.85017600001066
+      ],
+      [
+        164.8820398280049,
+        204.88446000001488
+      ],
+      [
+        127.00761983798391,
+        209.4819760000544
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "669978780",
+    "name": null,
+    "model": "building-low-1",
+    "profile": "commercial-cream",
+    "height": 3.3,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -49.621684601440016,
+        169.8297919999894
+      ],
+      [
+        -43.69274502354109,
+        191.40360799997947
+      ],
+      [
+        -31.281793145996534,
+        187.99721600001746
+      ],
+      [
+        -37.210732723846334,
+        166.4234000000274
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "669978785",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-cream",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        34.21307857154393,
+        178.62407200003219
+      ],
+      [
+        69.20045895369046,
+        162.98361200007062
+      ],
+      [
+        74.47677271983297,
+        165.39925600002266
+      ],
+      [
+        76.02537634089077,
+        168.87243999997423
+      ],
+      [
+        80.63800284085862,
+        166.81302000003242
+      ],
+      [
+        86.069176969102,
+        178.98029600004242
+      ],
+      [
+        42.973750485127916,
+        198.2386560000648
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "671635752",
+    "name": null,
+    "model": "building-3",
+    "profile": "market-ochre",
+    "height": 19.799999999999997,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        94.60861979397747,
+        143.76977999997538
+      ],
+      [
+        106.54392913075208,
+        137.61378400001465
+      ],
+      [
+        114.35331596279612,
+        152.76443599998686
+      ],
+      [
+        131.59812342906616,
+        143.8699680000586
+      ],
+      [
+        136.21074992903402,
+        161.43626399998286
+      ],
+      [
+        117.61644502152909,
+        171.03204799999926
+      ],
+      [
+        115.89085812948483,
+        167.6813159999956
+      ],
+      [
+        108.8225887446413,
+        171.32148000001993
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "671635753",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-cream",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        131.8193525177747,
+        134.20739200005266
+      ],
+      [
+        136.65320810645105,
+        147.59918800003607
+      ],
+      [
+        151.88483086531156,
+        146.57504400003134
+      ],
+      [
+        158.8314242513089,
+        145.55090000002662
+      ],
+      [
+        157.51511117337787,
+        132.01438800003285
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "671635754",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        158.8314242513089,
+        145.55090000002662
+      ],
+      [
+        161.7737711313728,
+        165.52170800006945
+      ],
+      [
+        154.83823919979363,
+        166.5458519999753
+      ],
+      [
+        151.88483086531156,
+        146.57504400003134
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "671635755",
+    "name": null,
+    "model": "building-2",
+    "profile": "commercial-cream",
+    "height": 16.5,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        67.82883860356998,
+        87.79808400002199
+      ],
+      [
+        105.58158259479391,
+        81.14114800004067
+      ],
+      [
+        106.07934804444946,
+        83.95754400002897
+      ],
+      [
+        118.46817701315756,
+        81.77567200004037
+      ],
+      [
+        117.87085847359054,
+        78.38041200001072
+      ],
+      [
+        154.95991519859072,
+        71.83479600004496
+      ],
+      [
+        155.7895242813336,
+        76.57702799999595
+      ],
+      [
+        159.66103333405178,
+        75.89797600006911
+      ],
+      [
+        161.51935767936047,
+        86.42884800003824
+      ],
+      [
+        157.45980390123756,
+        87.14129600005873
+      ],
+      [
+        158.4995806182216,
+        93.04125599999355
+      ],
+      [
+        121.96359661501727,
+        99.48668399997499
+      ],
+      [
+        121.41052389322144,
+        96.3474600000701
+      ],
+      [
+        108.22527020507428,
+        98.67404800006902
+      ],
+      [
+        108.88895747124893,
+        102.42553200001005
+      ],
+      [
+        101.94236408525157,
+        103.65005199998348
+      ],
+      [
+        90.19509947388165,
+        105.72060400005537
+      ],
+      [
+        71.85520801843818,
+        108.96001600004347
+      ],
+      [
+        71.18045929779618,
+        105.13060799998279
+      ],
+      [
+        66.55677134341008,
+        105.94324399998762
+      ],
+      [
+        64.16749718514204,
+        92.40673199999385
+      ],
+      [
+        68.51464877863022,
+        91.63862400001503
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "671635756",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-cream",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        71.85520801843818,
+        108.96001600004347
+      ],
+      [
+        90.19509947388165,
+        105.72060400005537
+      ],
+      [
+        92.7502954486688,
+        110.76340000005825
+      ],
+      [
+        103.02638662000678,
+        109.90623600002742
+      ],
+      [
+        101.94236408525157,
+        103.65005199998348
+      ],
+      [
+        108.88895747124893,
+        102.42553200001005
+      ],
+      [
+        113.63432142443206,
+        101.34572800004698
+      ],
+      [
+        121.0012500790591,
+        124.63387199999983
+      ],
+      [
+        86.75498714416224,
+        127.03838400001953
+      ],
+      [
+        81.78839410222146,
+        124.97896399997884
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "671635757",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-ochre",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        126.00102748425458,
+        99.40876000005306
+      ],
+      [
+        157.89120062423635,
+        96.90406000004901
+      ],
+      [
+        158.89779297791657,
+        109.78378399998064
+      ],
+      [
+        127.00761983798391,
+        112.27735200005235
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "671635758",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        127.25097183557801,
+        115.65034800001956
+      ],
+      [
+        155.3360046494492,
+        114.63733600004605
+      ],
+      [
+        155.6014795559289,
+        122.07351200003743
+      ],
+      [
+        127.51644674205768,
+        123.08652400001094
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "671635759",
+    "name": "The Salvation Army",
+    "model": "building-low-4",
+    "profile": "commercial-cream",
+    "height": 13.2,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        167.3376827128806,
+        150.32652800007125
+      ],
+      [
+        169.7933255977071,
+        179.72614000005768
+      ],
+      [
+        184.41656836258238,
+        178.51275200001663
+      ],
+      [
+        181.94986402323937,
+        149.10200799999896
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "671635762",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        163.90863183757938,
+        132.76023200004812
+      ],
+      [
+        179.6048356827425,
+        133.0051360000428
+      ],
+      [
+        179.53846695613484,
+        137.83642400004578
+      ],
+      [
+        179.50528259283104,
+        139.46169600005544
+      ],
+      [
+        163.8090787476679,
+        139.21679200006076
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "679734329",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        114.75152832254022,
+        -93.49766799998815
+      ],
+      [
+        119.95041190760773,
+        -101.36799200001053
+      ],
+      [
+        125.53644639795196,
+        -97.67216799992897
+      ],
+      [
+        120.3486242673027,
+        -89.8129759999378
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875877",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-cream",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -174.4612593699135,
+        127.83988799999314
+      ],
+      [
+        -152.7033784936362,
+        151.23935200006042
+      ],
+      [
+        -129.91678235479307,
+        130.0551559999765
+      ],
+      [
+        -151.67466323107038,
+        106.6556920000081
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875879",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-cream",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -124.81745185963703,
+        135.6211560000624
+      ],
+      [
+        -100.21677719320729,
+        120.43710799999656
+      ],
+      [
+        -92.71711108536498,
+        133.7955079999852
+      ],
+      [
+        -104.60817460446664,
+        140.50810400002374
+      ],
+      [
+        -107.84918075426489,
+        137.98114000005612
+      ],
+      [
+        -119.03231118942074,
+        144.9275080000581
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875880",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-cream",
+    "height": 9.899999999999999,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -119.03231118942074,
+        144.9275080000581
+      ],
+      [
+        -97.40716776640782,
+        180.12689199999505
+      ],
+      [
+        -71.82202365513436,
+        167.5254680000529
+      ],
+      [
+        -69.66504004004217,
+        161.0355120000455
+      ],
+      [
+        -75.79308579781315,
+        148.7903120000147
+      ],
+      [
+        -82.99409263582284,
+        152.0297240000028
+      ],
+      [
+        -81.91007010106765,
+        154.91291199998068
+      ],
+      [
+        -91.64415000507712,
+        160.323064000025
+      ],
+      [
+        -104.60817460446664,
+        140.50810400002374
+      ],
+      [
+        -107.84918075426489,
+        137.98114000005612
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875881",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-cream",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -85.00727734323239,
+        148.17805199997855
+      ],
+      [
+        -76.32403561072339,
+        144.9163760000269
+      ],
+      [
+        -80.42783520661746,
+        133.99588400005274
+      ],
+      [
+        -89.11107693912646,
+        137.26869200003563
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875882",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-cream",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -100.21677719320729,
+        120.43710799999656
+      ],
+      [
+        -90.52694310696899,
+        114.9935600000563
+      ],
+      [
+        -83.02727699917578,
+        128.36309199997729
+      ],
+      [
+        -92.71711108536498,
+        133.7955079999852
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875883",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-cream",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -97.31867613091461,
+        72.42479200001867
+      ],
+      [
+        -66.32448080028334,
+        54.13491600004271
+      ],
+      [
+        -59.01285941784571,
+        66.52483199998497
+      ],
+      [
+        -90.0181162028952,
+        84.8147080000598
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875884",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-cream",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -82.67331045720287,
+        101.33459600001575
+      ],
+      [
+        -59.17878123441393,
+        86.41771600000702
+      ],
+      [
+        -48.6482766110145,
+        103.00439600005141
+      ],
+      [
+        -72.14280583380344,
+        117.92127600006015
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875885",
+    "name": null,
+    "model": "building-1",
+    "profile": "office-ivory",
+    "height": 49.5,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -67.47487206164618,
+        125.64688399997334
+      ],
+      [
+        -56.33598744426152,
+        157.77383599999496
+      ],
+      [
+        -40.10883378618815,
+        153.00933999998153
+      ],
+      [
+        -45.19710282687685,
+        118.96768400002844
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875886",
+    "name": null,
+    "model": "building-1",
+    "profile": "office-ivory",
+    "height": 52.8,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -174.87053318402673,
+        -44.29422799993276
+      ],
+      [
+        -126.12270348310075,
+        -27.640755999997673
+      ],
+      [
+        -130.77957580079067,
+        -14.02631999998313
+      ],
+      [
+        -179.5163440472984,
+        -30.690923999949433
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875887",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-weathered",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -190.22383194168427,
+        -10.174647999958886
+      ],
+      [
+        -170.24684522964063,
+        17.621955999981473
+      ],
+      [
+        -154.10818320706048,
+        6.6012760000229775
+      ],
+      [
+        -174.2953375533453,
+        -21.774191999958745
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875888",
+    "name": null,
+    "model": "building-2",
+    "profile": "commercial-cream",
+    "height": 16.5,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -148.0465061759463,
+        -16.37517199994562
+      ],
+      [
+        -154.10818320706048,
+        6.6012760000229775
+      ],
+      [
+        -143.3232651315996,
+        22.38645199999489
+      ],
+      [
+        -135.55812411732674,
+        17.154412000054542
+      ],
+      [
+        -130.77957580079067,
+        -14.02631999998313
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875889",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-cream",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -154.10818320706048,
+        6.6012760000229775
+      ],
+      [
+        -170.24684522964063,
+        17.621955999981473
+      ],
+      [
+        -159.47298860864709,
+        33.40713200005226
+      ],
+      [
+        -143.3232651315996,
+        22.38645199999489
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875892",
+    "name": null,
+    "model": "building-2",
+    "profile": "commercial-cream",
+    "height": 16.5,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -102.65029716919739,
+        3.328468000040097
+      ],
+      [
+        -97.44035212971166,
+        0.512072000051802
+      ],
+      [
+        -96.13510050619882,
+        2.9388480000350725
+      ],
+      [
+        -85.15107625091501,
+        -2.983375999962199
+      ],
+      [
+        -89.48716638998495,
+        -11.042944000020931
+      ],
+      [
+        -85.29487515859766,
+        -13.313871999962643
+      ],
+      [
+        -65.91520698612102,
+        22.631355999989573
+      ],
+      [
+        -87.341244229311,
+        34.186372000062306
+      ],
+      [
+        -84.66437225572682,
+        39.16237599997675
+      ],
+      [
+        -109.65219782743328,
+        52.64322800001217
+      ],
+      [
+        -114.71834395923639,
+        43.247820000063335
+      ],
+      [
+        -101.079570639254,
+        35.88956799999387
+      ],
+      [
+        -104.78515787540398,
+        29.032256000043866
+      ],
+      [
+        -116.12314867266069,
+        35.143723999978604
+      ],
+      [
+        -122.77108278892368,
+        22.83173200005713
+      ],
+      [
+        -108.70091274589336,
+        15.239708000024201
+      ],
+      [
+        -124.08739586680562,
+        -13.29160799999908
+      ],
+      [
+        -114.4196846894529,
+        -18.501383999975864
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875897",
+    "name": null,
+    "model": "building-2",
+    "profile": "commercial-cream",
+    "height": 16.5,
+    "heightSource": "five floors reported in 2020 and October 2026 property descriptions; 3.3 m per floor estimated",
+    "appearanceSource": "Mosaic House candidate beside Trinity: supplied mid-rise closest massing; individual footprint identity unverified",
+    "footprint": [
+      [
+        -39.257101794559695,
+        57.37432800003081
+      ],
+      [
+        -27.83061936185888,
+        55.51528400005768
+      ],
+      [
+        -25.939110653246388,
+        67.10369600002633
+      ],
+      [
+        -22.70916595781724,
+        66.58049200004217
+      ],
+      [
+        -24.578551757544144,
+        55.10339999999022
+      ],
+      [
+        -13.35117550466625,
+        53.27775200001188
+      ],
+      [
+        -7.035085021539715,
+        92.11730000007205
+      ],
+      [
+        -32.91888840254757,
+        96.32519600000765
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [
+      "https://propertypro.ng/property/commercial-property-for-sale-tinubu-square-lagos-island-lagos-2DNLX",
+      "https://nigeriapropertycentre.com/for-sale/commercial/plaza-complex-mall/lagos/lagos-island/3708600-twin-block-commercial-complex"
+    ],
+    "confidence": "low: no surveyed footprint-to-name confirmation"
+  },
+  {
+    "id": "705875898",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-cream",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -33.0073800380408,
+        99.93196400003723
+      ],
+      [
+        -28.74872008004586,
+        124.18859200003645
+      ],
+      [
+        -19.446036899084273,
+        122.56332000002679
+      ],
+      [
+        -23.693635402660984,
+        98.30669200002757
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875899",
+    "name": "Methodist Church of the Trinity",
+    "model": "tinubu-trinity",
+    "profile": "trinity",
+    "height": 27,
+    "heightSource": "estimated from March 2021 facade photograph; includes clock tower",
+    "appearanceSource": "photo-informed landmark silhouette; OSM footprint association inferred from adjacent streets and photo location",
+    "footprint": [
+      [
+        -0.22122908875763195,
+        50.52814800001315
+      ],
+      [
+        14.092292951866773,
+        93.16370800004034
+      ],
+      [
+        38.27263234971595,
+        81.70888000005081
+      ],
+      [
+        12.82022569170688,
+        44.17177599998485
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [
+      "https://worlddayofprayer.net/nigeria-2026.html",
+      "https://www.google.com/maps/search/Methodist+Church+of+the+Trinity+Tinubu+Lagos"
+    ],
+    "confidence": "medium: recognizable facade, approximate dimensions and footprint association"
+  },
+  {
+    "id": "705875901",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-cream",
+    "height": 9.899999999999999,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        43.017996302899085,
+        98.74084000005858
+      ],
+      [
+        32.974195674687856,
+        102.85968000004107
+      ],
+      [
+        34.83252001999653,
+        107.9136079999763
+      ],
+      [
+        21.603020514127326,
+        113.92488800002556
+      ],
+      [
+        26.293077195170177,
+        124.24425199999479
+      ],
+      [
+        40.49598469141577,
+        117.78769199998216
+      ],
+      [
+        42.641906852040584,
+        122.50766000006846
+      ],
+      [
+        51.911405669698354,
+        118.28863200000274
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875902",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-cream",
+    "height": 9.899999999999999,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        32.974195674687856,
+        102.85968000004107
+      ],
+      [
+        30.894642240670677,
+        97.7723560000122
+      ],
+      [
+        6.526258117416811,
+        107.76889200006482
+      ],
+      [
+        3.7055872361499853,
+        100.41063999999537
+      ],
+      [
+        37.67531381014894,
+        86.50677200005902
+      ],
+      [
+        43.017996302899085,
+        98.74084000005858
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705875903",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-cream",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        16.02804747825044,
+        128.59686400003963
+      ],
+      [
+        24.910395390631468,
+        127.75083200004002
+      ],
+      [
+        23.549836494929227,
+        121.5948359999804
+      ],
+      [
+        17.38860637390356,
+        122.27388800000611
+      ],
+      [
+        13.627711865564168,
+        113.04546000003117
+      ],
+      [
+        10.386705715716788,
+        114.58167599998885
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949454",
+    "name": null,
+    "model": "building-2",
+    "profile": "commercial-weathered",
+    "height": 16.5,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -184.70416617794766,
+        -65.38936799996466
+      ],
+      [
+        -165.92181654503804,
+        -58.65450799996257
+      ],
+      [
+        -157.02840717823878,
+        -84.58093599999745
+      ],
+      [
+        -175.20237681711404,
+        -90.87051599993731
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949455",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-weathered",
+    "height": 13.2,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -165.92181654503804,
+        -58.65450799996257
+      ],
+      [
+        -143.07991313400552,
+        -50.828711999966174
+      ],
+      [
+        -134.18650376720626,
+        -76.75514000000106
+      ],
+      [
+        -157.02840717823878,
+        -84.58093599999745
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949456",
+    "name": null,
+    "model": "building-2",
+    "profile": "commercial-weathered",
+    "height": 16.5,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -143.07991313400552,
+        -50.828711999966174
+      ],
+      [
+        -119.19823300598897,
+        -42.835935999995876
+      ],
+      [
+        -114.82895850361521,
+        -56.828859999984225
+      ],
+      [
+        -110.96851090531524,
+        -69.24103999998891
+      ],
+      [
+        -134.18650376720626,
+        -76.75514000000106
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949457",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-weathered",
+    "height": 13.2,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -114.82895850361521,
+        -56.828859999984225
+      ],
+      [
+        -102.30739208169183,
+        -53.07737599994432
+      ],
+      [
+        -92.73923399425057,
+        -50.33890399997681
+      ],
+      [
+        -94.94046342706478,
+        -42.657823999990754
+      ],
+      [
+        -103.26973861764999,
+        -38.72822799994573
+      ],
+      [
+        -119.19823300598897,
+        -42.835935999995876
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949458",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-weathered",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -102.30739208169183,
+        -53.07737599994432
+      ],
+      [
+        -101.88705681311129,
+        -55.392832000010905
+      ],
+      [
+        -106.51074476749736,
+        -57.24074399995281
+      ],
+      [
+        -105.11700150849131,
+        -64.18711199995482
+      ],
+      [
+        -101.42247572675956,
+        -64.18711199995482
+      ],
+      [
+        -101.42247572675956,
+        -68.35047999996331
+      ],
+      [
+        -106.97532585379997,
+        -68.35047999996331
+      ],
+      [
+        -106.97532585379997,
+        -78.39154399994307
+      ],
+      [
+        -89.8521943863761,
+        -77.14476000000609
+      ],
+      [
+        -90.08448492955198,
+        -57.930928000009736
+      ],
+      [
+        -92.73923399425057,
+        -50.33890399997681
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949459",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -106.97532585379997,
+        -78.39154399994307
+      ],
+      [
+        -108.8225887446904,
+        -78.39154399994307
+      ],
+      [
+        -110.96851090531524,
+        -69.24103999998891
+      ],
+      [
+        -114.82895850361521,
+        -56.828859999984225
+      ],
+      [
+        -102.30739208169183,
+        -53.07737599994432
+      ],
+      [
+        -101.88705681311129,
+        -55.392832000010905
+      ],
+      [
+        -106.51074476749736,
+        -57.24074399995281
+      ],
+      [
+        -105.11700150849131,
+        -64.18711199995482
+      ],
+      [
+        -101.42247572675956,
+        -64.18711199995482
+      ],
+      [
+        -101.42247572675956,
+        -68.35047999996331
+      ],
+      [
+        -106.97532585379997,
+        -68.35047999996331
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949461",
+    "name": null,
+    "model": "building-2",
+    "profile": "commercial-weathered",
+    "height": 16.5,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -124.91700494954848,
+        -95.10067599993536
+      ],
+      [
+        -104.3316382435196,
+        -102.87081199997343
+      ],
+      [
+        -96.36739104937467,
+        -84.65886000001824
+      ],
+      [
+        -108.83365019910865,
+        -82.87773999996702
+      ],
+      [
+        -121.28884789442439,
+        -85.25998800002316
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949462",
+    "name": null,
+    "model": "building-3",
+    "profile": "market-grey",
+    "height": 26.4,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -145.9448298330435,
+        -114.10299999993182
+      ],
+      [
+        -137.0403590117769,
+        -90.52542399995829
+      ],
+      [
+        -124.91700494954848,
+        -95.10067599993536
+      ],
+      [
+        -104.3316382435196,
+        -102.87081199997343
+      ],
+      [
+        -114.30907014512319,
+        -126.84913999998318
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949463",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-weathered",
+    "height": 13.2,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -155.53511082932127,
+        -132.18136800000676
+      ],
+      [
+        -153.59935630298673,
+        -127.38347599999855
+      ],
+      [
+        -157.18326754033967,
+        -125.93631599999401
+      ],
+      [
+        -153.87589266388463,
+        -117.75429599998738
+      ],
+      [
+        -151.7299705032107,
+        -118.61146000001821
+      ],
+      [
+        -149.35175779941,
+        -112.73376399994805
+      ],
+      [
+        -145.9448298330435,
+        -114.10299999993182
+      ],
+      [
+        -114.30907014512319,
+        -126.84913999998318
+      ],
+      [
+        -121.90828934287697,
+        -145.72901199993285
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949464",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -159.49511151753268,
+        -161.18022799995697
+      ],
+      [
+        -156.43108863867178,
+        -162.2934280000137
+      ],
+      [
+        -131.36583288593943,
+        -171.58864799997818
+      ],
+      [
+        -122.82639006106396,
+        -148.46748399999925
+      ],
+      [
+        -150.82293123944194,
+        -138.00340400001969
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949465",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-weathered",
+    "height": 13.2,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -160.1256144204035,
+        -172.28996399996745
+      ],
+      [
+        -156.43108863867178,
+        -162.2934280000137
+      ],
+      [
+        -131.36583288593943,
+        -171.58864799997818
+      ],
+      [
+        -135.23734193865766,
+        -181.99706799999942
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "705949466",
+    "name": null,
+    "model": "building-3",
+    "profile": "market-grey",
+    "height": 23.099999999999998,
+    "heightSource": "OSM levels \u00d7 estimated 3.3 m floor height",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -168.0234928879408,
+        -185.11402799994073
+      ],
+      [
+        -140.6132087947116,
+        -195.78961600001907
+      ],
+      [
+        -135.23734193865766,
+        -181.99706799999942
+      ],
+      [
+        -160.1256144204035,
+        -172.28996399996745
+      ],
+      [
+        -162.64762603188683,
+        -171.31034799998872
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "707000556",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        174.53868955093938,
+        69.64179200002516
+      ],
+      [
+        173.1560077464007,
+        75.20779200001218
+      ],
+      [
+        177.91243315400203,
+        76.39891599999082
+      ],
+      [
+        179.29511495854075,
+        70.83291600000379
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1106330617",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-weathered",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -21.768942330744675,
+        -74.84043599997072
+      ],
+      [
+        -16.868718015411545,
+        -74.12798799995024
+      ],
+      [
+        -17.15631583077682,
+        -71.31159199996193
+      ],
+      [
+        -7.289498473552045,
+        -71.24479999997237
+      ],
+      [
+        -0.8738549004649272,
+        -90.4808959999323
+      ],
+      [
+        0.785363264971699,
+        -90.12467200002092
+      ],
+      [
+        1.8583243453086702,
+        -93.86502399993074
+      ],
+      [
+        -6.636872661795627,
+        -96.81500399999703
+      ],
+      [
+        -8.0859231929911,
+        -92.49578799994697
+      ],
+      [
+        -14.634304219293497,
+        -94.36596399995132
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1106330618",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        18.450505999773178,
+        -184.6019559999878
+      ],
+      [
+        29.876988432523117,
+        -177.71124799994413
+      ],
+      [
+        28.228831721504722,
+        -175.41805599994
+      ],
+      [
+        27.255423731128335,
+        -175.49597999996078
+      ],
+      [
+        26.846149916966013,
+        -174.89485199995585
+      ],
+      [
+        27.1116248234457,
+        -174.2937239999509
+      ],
+      [
+        26.01654083422314,
+        -174.18240399993536
+      ],
+      [
+        25.308607750326434,
+        -173.10259999997228
+      ],
+      [
+        25.684697201135812,
+        -172.04505999997278
+      ],
+      [
+        24.368384123204745,
+        -170.9652560000097
+      ],
+      [
+        23.660451039308043,
+        -171.82241999994164
+      ],
+      [
+        20.3198917995492,
+        -168.9392319999638
+      ],
+      [
+        19.28011508251605,
+        -169.90771600001017
+      ],
+      [
+        15.795756935074575,
+        -166.57924799997008
+      ],
+      [
+        10.884471165323214,
+        -171.56638400001464
+      ],
+      [
+        11.669834430294912,
+        -173.46995600001375
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259729514",
+    "name": null,
+    "model": "building-2",
+    "profile": "commercial-cream",
+    "height": 16.5,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        66.61207861559949,
+        85.70526799998653
+      ],
+      [
+        64.83118445136581,
+        72.94799600000282
+      ],
+      [
+        71.65610183856613,
+        72.3468679999979
+      ],
+      [
+        71.2136436611,
+        68.33934800003095
+      ],
+      [
+        100.1393470121323,
+        63.597115999981106
+      ],
+      [
+        99.99554810444967,
+        60.92543600000315
+      ],
+      [
+        108.1478400240484,
+        58.854884000030125
+      ],
+      [
+        108.1478400240484,
+        62.11655999998179
+      ],
+      [
+        121.20035625893115,
+        60.33544000002944
+      ],
+      [
+        120.31543990399888,
+        58.2537560000252
+      ],
+      [
+        127.4390165609827,
+        57.21847999998925
+      ],
+      [
+        156.0660606422315,
+        52.62096400004861
+      ],
+      [
+        157.99075371414781,
+        70.27631600002486
+      ],
+      [
+        122.53879224569869,
+        75.60854400004843
+      ],
+      [
+        122.69365260779955,
+        73.98327200003877
+      ],
+      [
+        109.3424771031333,
+        76.20967200005336
+      ],
+      [
+        109.92873418828208,
+        79.17078400005198
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750464",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        117.19610975294853,
+        -80.00568400002038
+      ],
+      [
+        123.57856896273184,
+        -75.59741200001721
+      ],
+      [
+        117.93722720019818,
+        -67.43765599997414
+      ],
+      [
+        111.56582944488224,
+        -71.8459279999773
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750465",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        97.77219576274985,
+        -92.46239199995219
+      ],
+      [
+        105.95767204565242,
+        -89.07826399995375
+      ],
+      [
+        102.10828590177067,
+        -79.73851599996325
+      ],
+      [
+        93.91174816444989,
+        -83.11151199993049
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750466",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        89.01152384916587,
+        -93.49766799998815
+      ],
+      [
+        93.79007216565283,
+        -91.77220799999415
+      ],
+      [
+        90.00705474842785,
+        -81.31925999994692
+      ],
+      [
+        85.22850643194089,
+        -83.04471999994092
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750467",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        81.66671810342442,
+        -94.02087199997229
+      ],
+      [
+        87.08683077724956,
+        -92.02824400002004
+      ],
+      [
+        85.0183387976506,
+        -86.38432000001224
+      ],
+      [
+        79.5982261238746,
+        -88.38807999999571
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750468",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        79.07833776533346,
+        -86.82959999997561
+      ],
+      [
+        84.74180243675269,
+        -84.05773200001332
+      ],
+      [
+        81.85476282887822,
+        -78.12437599998482
+      ],
+      [
+        76.18023670304076,
+        -80.89624399994712
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750469",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        73.65822509155744,
+        -80.45096399998374
+      ],
+      [
+        84.04493080727421,
+        -75.33024399996009
+      ],
+      [
+        80.88135483845271,
+        -68.8959480000099
+      ],
+      [
+        70.49464912273594,
+        -74.01666799993467
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750474",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        143.1573433150314,
+        -99.58687199995933
+      ],
+      [
+        145.23689674904858,
+        -111.54263999996942
+      ],
+      [
+        165.71164891069864,
+        -107.98039999996587
+      ],
+      [
+        163.63209547668146,
+        -96.02463199995576
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750509",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        180.35701458441036,
+        -88.35468400000093
+      ],
+      [
+        189.91411121743343,
+        -88.04298800001668
+      ],
+      [
+        189.3167926778664,
+        -70.09820400001973
+      ],
+      [
+        179.7596960448925,
+        -70.40990000000399
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750511",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        161.85120131244778,
+        -42.323863999944074
+      ],
+      [
+        174.42807500656056,
+        -41.878583999980705
+      ],
+      [
+        173.53209719721005,
+        -16.664603999966303
+      ],
+      [
+        160.9662849575155,
+        -17.098751999997326
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750512",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        176.3859524417807,
+        -1.079803999963076
+      ],
+      [
+        184.65992036017647,
+        -0.6679199999944885
+      ],
+      [
+        183.7750040052442,
+        17.132147999992107
+      ],
+      [
+        175.50103608689753,
+        16.72026400002352
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750524",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        137.82572227669948,
+        -46.776663999973245
+      ],
+      [
+        137.527063006916,
+        -24.4458719999367
+      ],
+      [
+        128.78851400221757,
+        -24.55719199995226
+      ],
+      [
+        129.08717327200108,
+        -46.887983999988805
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750525",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        62.46403320198336,
+        -56.56169200002598
+      ],
+      [
+        99.54202847256529,
+        -34.01939199998953
+      ],
+      [
+        95.73688814645473,
+        -27.752076000013233
+      ],
+      [
+        58.658892875872795,
+        -50.30550799998203
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750526",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -30.1092789757481,
+        -61.31505600000818
+      ],
+      [
+        -15.04357803345582,
+        -56.940179999999785
+      ],
+      [
+        -20.3198917995492,
+        -38.76162399994051
+      ],
+      [
+        -20.37519907173861,
+        -38.53898400000826
+      ],
+      [
+        -35.45196146849825,
+        -42.913860000016655
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750527",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -10.530504623399423,
+        -61.01449199995628
+      ],
+      [
+        1.3826818045387088,
+        -55.77131999998471
+      ],
+      [
+        -8.40670537161107,
+        -33.518451999968946
+      ],
+      [
+        -20.3198917995492,
+        -38.76162399994051
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750528",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        5.19888358506751,
+        -57.15168799999969
+      ],
+      [
+        17.54346673600443,
+        -52.587567999954956
+      ],
+      [
+        8.63899591473781,
+        -28.553579999986844
+      ],
+      [
+        -3.7055872361991082,
+        -33.12883199996392
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750529",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        22.410506687984615,
+        -55.37056799994847
+      ],
+      [
+        33.48302257876164,
+        -53.80095599999603
+      ],
+      [
+        30.761904787406277,
+        -34.60938799996324
+      ],
+      [
+        19.678327442211017,
+        -36.179000000014554
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750530",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        15.286930031000793,
+        -37.570499999961875
+      ],
+      [
+        19.678327442211017,
+        -36.179000000014554
+      ],
+      [
+        22.908272137640164,
+        -35.15485600000982
+      ],
+      [
+        18.74916526955668,
+        -22.097019999974208
+      ],
+      [
+        11.127823162917311,
+        -24.52379599995748
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750531",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        33.98078802841719,
+        -52.10889199999681
+      ],
+      [
+        45.152857009105674,
+        -50.06060399998734
+      ],
+      [
+        41.88972795037271,
+        -32.26053600000075
+      ],
+      [
+        30.717658969684223,
+        -34.30882400001021
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750532",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        136.0448281124658,
+        -21.852115999979524
+      ],
+      [
+        149.96013779339523,
+        -20.13778800001674
+      ],
+      [
+        147.58192508954545,
+        -0.8571639999319558
+      ],
+      [
+        133.6666154086651,
+        -2.560359999962394
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750533",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        60.68313903770056,
+        -31.937707999985285
+      ],
+      [
+        63.95732955085177,
+        -40.887835999970754
+      ],
+      [
+        85.0183387976506,
+        -33.17335999998992
+      ],
+      [
+        81.74414828449942,
+        -24.22323200000445
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750534",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        145.23689674904858,
+        -44.83969599997934
+      ],
+      [
+        152.21667449839887,
+        -44.79516799995334
+      ],
+      [
+        152.07287559071622,
+        -24.612852000009475
+      ],
+      [
+        145.09309784141504,
+        -24.66851199996782
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750535",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        138.71063863163175,
+        -46.03081999995798
+      ],
+      [
+        143.74360040018016,
+        -45.964027999968415
+      ],
+      [
+        143.44494113039667,
+        -23.85587599996299
+      ],
+      [
+        138.41197936184827,
+        -23.92266799995255
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750536",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        153.40025012306555,
+        15.529140000044883
+      ],
+      [
+        158.28941298393133,
+        19.536660000011814
+      ],
+      [
+        144.47365639296245,
+        41.911979999975486
+      ],
+      [
+        140.46940988702897,
+        38.049176000018896
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750537",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        76.85498542363364,
+        44.16064400005251
+      ],
+      [
+        97.8164415804719,
+        50.75078800004427
+      ],
+      [
+        94.55331252178807,
+        61.136944000003055
+      ],
+      [
+        73.59185636490068,
+        54.546800000011295
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750538",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        72.09856001603227,
+        9.005788000042685
+      ],
+      [
+        79.66459485048223,
+        10.196912000021321
+      ],
+      [
+        76.36828142844544,
+        31.247524000027234
+      ],
+      [
+        68.80224659399549,
+        30.067531999980943
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750539",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        45.39620900669977,
+        28.442260000070156
+      ],
+      [
+        76.67800215264718,
+        35.1882520000046
+      ],
+      [
+        75.04090689609615,
+        42.74688000004275
+      ],
+      [
+        43.77017520456696,
+        36.00088800000943
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750540",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        139.9716444373734,
+        20.47174800006342
+      ],
+      [
+        136.91868301293073,
+        26.594348000029377
+      ],
+      [
+        131.90784415326792,
+        24.089648000025328
+      ],
+      [
+        134.9608055777106,
+        17.96704800005937
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750541",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        143.87633785339543,
+        14.260092000045468
+      ],
+      [
+        141.38751060521594,
+        18.946664000038105
+      ],
+      [
+        135.4806939362026,
+        15.807440000034347
+      ],
+      [
+        137.9695211843821,
+        11.12086800004171
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750542",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        133.88784449737364,
+        7.4250440000590245
+      ],
+      [
+        137.93633682107827,
+        9.117108000058245
+      ],
+      [
+        131.67555361014115,
+        24.067384000061764
+      ],
+      [
+        127.6270612864365,
+        22.375320000062544
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750543",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        127.4390165609827,
+        25.024735999978063
+      ],
+      [
+        138.96505208364408,
+        27.996980000007916
+      ],
+      [
+        133.62236959089395,
+        48.75815999999315
+      ],
+      [
+        122.09633406823255,
+        45.79704799999451
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750544",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        118.2358864699817,
+        4.263555999992832
+      ],
+      [
+        112.14102507556368,
+        30.167720000064158
+      ],
+      [
+        106.66560512954912,
+        29.477536000007234
+      ],
+      [
+        113.65644433331767,
+        1.4916880000305355
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750545",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        106.96426439933262,
+        -2.8609240000142933
+      ],
+      [
+        111.14549417630168,
+        -2.1930040000198048
+      ],
+      [
+        106.36694585976561,
+        27.39585200000299
+      ],
+      [
+        102.1967775372639,
+        26.7279320000085
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750546",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        91.15744600983982,
+        -8.938995999954251
+      ],
+      [
+        99.94024083226026,
+        -7.525231999944495
+      ],
+      [
+        97.17487722318285,
+        9.595784000016394
+      ],
+      [
+        88.39208240076239,
+        8.182020000006638
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750547",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        85.60459588279939,
+        -12.657083999999372
+      ],
+      [
+        91.59990418725683,
+        -11.688599999952984
+      ],
+      [
+        91.15744600983982,
+        -8.938995999954251
+      ],
+      [
+        88.39208240076239,
+        8.182020000006638
+      ],
+      [
+        87.97174713213272,
+        10.78690799999503
+      ],
+      [
+        81.97643882767528,
+        9.818424000047514
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750548",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        71.65610183856613,
+        -12.055955999994445
+      ],
+      [
+        82.0096231909791,
+        -10.386155999958788
+      ],
+      [
+        79.07833776533346,
+        7.814664000064049
+      ],
+      [
+        68.72481641292049,
+        6.144864000028392
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750549",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        62.46403320198336,
+        -13.547644000024981
+      ],
+      [
+        71.65610183856613,
+        -12.055955999994445
+      ],
+      [
+        68.72481641292049,
+        6.144864000028392
+      ],
+      [
+        68.71375495850226,
+        6.200523999986736
+      ],
+      [
+        59.52168632191949,
+        4.708836000055072
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750550",
+    "name": null,
+    "model": "building-low-4",
+    "profile": "commercial-ochre",
+    "height": 13.2,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        119.1318642793322,
+        7.224667999991468
+      ],
+      [
+        128.32393291591498,
+        11.08747200004693
+      ],
+      [
+        114.97275741124872,
+        55.660000000068024
+      ],
+      [
+        107.5505214844814,
+        53.589447999996125
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259750551",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        39.02481125138383,
+        6.634672000017758
+      ],
+      [
+        52.055204577380984,
+        9.451068000006053
+      ],
+      [
+        49.68805332799853,
+        20.427220000037423
+      ],
+      [
+        36.646598547583146,
+        17.610824000049128
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757273",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        75.66034834449962,
+        -172.71297999996727
+      ],
+      [
+        79.65353339601488,
+        -170.13035599994242
+      ],
+      [
+        76.39040433733103,
+        -165.08755999993954
+      ],
+      [
+        72.39721928581578,
+        -167.67018399996437
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757277",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -27.288608094481276,
+        -180.72802
+      ],
+      [
+        -13.229499505869201,
+        -173.89297200001354
+      ],
+      [
+        -15.90637147945339,
+        -168.40489599994842
+      ],
+      [
+        -29.95441861359811,
+        -175.23994399993487
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757278",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        69.28895058918368,
+        -156.54931600002155
+      ],
+      [
+        81.42336610583033,
+        -151.5955759999718
+      ],
+      [
+        76.53420324496454,
+        -139.58414800000332
+      ],
+      [
+        64.38872627389968,
+        -144.52675600002186
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757279",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        28.63810553566704,
+        -165.1543519999291
+      ],
+      [
+        21.669389240784092,
+        -158.33043599997387
+      ],
+      [
+        15.862125661682215,
+        -164.26379200000238
+      ],
+      [
+        22.830841956565166,
+        -171.08770799995762
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757280",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        0.59731853956701,
+        -156.1040359999593
+      ],
+      [
+        8.329275190536073,
+        -148.62333199994194
+      ],
+      [
+        -0.5641341762631896,
+        -139.41716799993057
+      ],
+      [
+        -8.296090827281375,
+        -146.90900399997915
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757281",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -51.32514858459869,
+        -170.78714400000456
+      ],
+      [
+        -44.88738210267511,
+        -165.29906799993944
+      ],
+      [
+        -58.68101578475838,
+        -149.1242719999625
+      ],
+      [
+        -65.11878226673109,
+        -154.62347999995998
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757282",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-cream",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -54.87587545869694,
+        -127.91781200001392
+      ],
+      [
+        -64.52146372716408,
+        -109.5166160000224
+      ],
+      [
+        -67.85096151250468,
+        -111.26433999997997
+      ],
+      [
+        -58.21643469845577,
+        -129.6655359999715
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757283",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        -65.11878226673109,
+        -134.15173199999543
+      ],
+      [
+        -58.73632305694779,
+        -130.66741600001265
+      ],
+      [
+        -66.7448160688639,
+        -115.98430799996737
+      ],
+      [
+        -73.12727527864719,
+        -119.45749200001782
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757284",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        59.04604378114953,
+        -142.9014840000122
+      ],
+      [
+        75.56079525458816,
+        -134.10720399996944
+      ],
+      [
+        70.67163239372239,
+        -124.91217199998928
+      ],
+      [
+        54.156880920283754,
+        -133.7064519999332
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757285",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        57.71866924880023,
+        -145.1278840000268
+      ],
+      [
+        53.1171042032506,
+        -136.96812799998372
+      ],
+      [
+        45.60637664099005,
+        -141.19828799998177
+      ],
+      [
+        50.19688023207232,
+        -149.35804400002485
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757286",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        38.35006253074182,
+        -136.96812799998372
+      ],
+      [
+        43.604253387998746,
+        -133.4949439999333
+      ],
+      [
+        36.18201746123142,
+        -122.29615199996968
+      ],
+      [
+        30.93888805839273,
+        -125.7693360000201
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757287",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        40.8057054156175,
+        -111.59830000002664
+      ],
+      [
+        47.4868238951843,
+        -107.82455200002317
+      ],
+      [
+        41.557884317285385,
+        -97.29367999995517
+      ],
+      [
+        34.865704383300354,
+        -101.06742799995864
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1259757288",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-cream",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        0.8959778093013921,
+        -134.4411640000161
+      ],
+      [
+        4.546257773311092,
+        -132.05891599995996
+      ],
+      [
+        -6.581565389655342,
+        -115.00469199998864
+      ],
+      [
+        -10.231845353615919,
+        -117.38693999994592
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1264788915",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        12.842348600543346,
+        -80.84058399998878
+      ],
+      [
+        17.587712553775603,
+        -79.95002399996316
+      ],
+      [
+        15.209499849925797,
+        -63.04051600000218
+      ],
+      [
+        8.096984647360209,
+        -65.41163199992823
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1264788916",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-ochre",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        141.59767823950622,
+        -81.14114799994181
+      ],
+      [
+        150.20348979098932,
+        -80.25058800001506
+      ],
+      [
+        149.31857343605705,
+        -62.4505199999296
+      ],
+      [
+        136.55365501653958,
+        -62.73995199995028
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  },
+  {
+    "id": "1264788917",
+    "name": null,
+    "model": "building-low-3",
+    "profile": "commercial-weathered",
+    "height": 9.899999999999999,
+    "heightSource": "unverified contextual estimate; no mapped height/levels",
+    "appearanceSource": "closest supplied building by height class and local streetscape; individual facade unverified",
+    "footprint": [
+      [
+        19.36860671800928,
+        -80.84058399998878
+      ],
+      [
+        31.525145143541508,
+        -79.66059199994248
+      ],
+      [
+        33.01844149245904,
+        -75.497223999934
+      ],
+      [
+        23.81531140140891,
+        -74.6177959999396
+      ],
+      [
+        22.034417237175237,
+        -71.64555200000862
+      ],
+      [
+        18.17396963887526,
+        -71.05555599993605
+      ]
+    ],
+    "fit": "oriented bounding rectangle, not exact polygon facade",
+    "references": [],
+    "confidence": "mapped footprint, proxy facade"
+  }
+]

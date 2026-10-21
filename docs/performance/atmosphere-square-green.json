@@ -1,0 +1,45 @@
+{
+  "hardware": "Apple M2",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "quality": "auto",
+  "notes": "Headless Chrome with SwiftShader software rendering. Mobile is viewport/touch emulation, not a physical phone benchmark.",
+  "telemetry": {
+    "fps": 5,
+    "frameMs": 218.9,
+    "drawCalls": 222,
+    "shadowCalls": 99,
+    "forwardCalls": 123,
+    "triangles": 351000,
+    "chunks": 12,
+    "entities": 37,
+    "resolution": 0.9,
+    "players": 1,
+    "network": "online",
+    "x": -18,
+    "z": 24,
+    "heading": 0.25
+  },
+  "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+  "sky": true,
+  "models": [
+    "/assets/models/building-1.glb",
+    "/assets/models/building-2.glb",
+    "/assets/models/building-3.glb",
+    "/assets/models/building-low-1.glb",
+    "/assets/models/building-low-2.glb",
+    "/assets/models/building-low-3.glb",
+    "/assets/models/building-low-4.glb",
+    "/assets/models/tinubu-trinity.glb",
+    "/assets/models/cbn-lagos.glb",
+    "/assets/models/street-slab.glb",
+    "/assets/models/sedan.glb",
+    "/assets/models/wagon.glb",
+    "/assets/models/sports.glb",
+    "/assets/models/character.glb",
+    "/assets/models/fern.glb"
+  ],
+  "errors": []
+}
