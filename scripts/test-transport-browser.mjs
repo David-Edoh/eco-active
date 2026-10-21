@@ -20,6 +20,9 @@ const report = {
   views: [],
 };
 const errors = [];
+const outputPrefix = process.argv.includes("--black-windows")
+  ? "transport-black-windows"
+  : "transport";
 try {
   for (const mobile of [false, true]) {
     const viewport = mobile
@@ -154,7 +157,9 @@ try {
           ext = gl.getExtension("WEBGL_debug_renderer_info");
         return gl.getParameter(ext ? ext.UNMASKED_RENDERER_WEBGL : gl.RENDERER);
       });
-      await page.screenshot({ path: `docs/performance/transport-${name}.png` });
+      await page.screenshot({
+        path: `docs/performance/${outputPrefix}-${name}.png`,
+      });
       report.views.push({
         name,
         viewport,
@@ -175,7 +180,7 @@ try {
 } finally {
   report.errors = errors;
   await fs.writeFile(
-    "docs/performance/transport-results.json",
+    `docs/performance/${outputPrefix}-results.json`,
     JSON.stringify(report, null, 2),
   );
   console.log(

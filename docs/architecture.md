@@ -411,3 +411,20 @@ Optional diagnostics publish plain model IDs with moving traffic and parked ECS
 snapshots at the existing half-second cadence. See
 `docs/references/transport/research.md` and `docs/performance/transport-validation.md`
 for provenance, reproduction and measured verification conditions.
+
+### Vehicle window texture edits
+
+Bus/keke windows use built-in ImageGen edits of their existing UV atlases. Only
+glass regions are retained as transparent source overlays in
+`src/assets/textures/transport-window-edits/{bus,keke}.png`; these are editing
+layers, not duplicated complete runtime textures. The converter first reproduces
+the original 1024px WebP atlas, applies that overlay, and writes the complete
+runtime `public/assets/textures/{bus,keke}.webp` losslessly so non-window pixels
+remain identical. Yellow paint, stripes, lamps, mirrors, wheel hubs, geometry and
+UV layout are preserved. Both parked and moving instances use the shared result.
+
+Regenerating vehicle assets with `--vehicles` reapplies the checked-in overlays.
+The exact built-in prompts, saved asset paths and pixel comparison are recorded
+in `docs/references/transport/window-edit-prompts.json` and
+`window-edit-verification.json`. No image generation service or source overlay
+file is needed by the running game.

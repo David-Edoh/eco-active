@@ -143,7 +143,7 @@ for (const [id, height] of defs) {
   )?.[1];
   const texture = guidPaths.get(guid);
   if (!texture) throw Error(`No albedo GUID resolution for ${id}`);
-  await sharp(texture)
+  const baseTexture = await sharp(texture)
     .resize({
       width: 1024,
       height: 1024,
@@ -152,12 +152,35 @@ for (const [id, height] of defs) {
     })
     .removeAlpha()
     .webp({ quality: 85 })
-    .toFile(`public/assets/textures/${name}.webp`);
+    .toBuffer();
+  const overlayPath = `src/assets/textures/transport-window-edits/${name}.png`;
+  let windowOverlay;
+  if (vehicles) {
+    try {
+      windowOverlay = await fs.readFile(overlayPath);
+    } catch (error) {
+      if (error.code !== "ENOENT") throw error;
+    }
+  }
+  if (windowOverlay) {
+    // Keep every original non-window decoded pixel, including paint and lamps.
+    await sharp(baseTexture)
+      .composite([{ input: windowOverlay }])
+      .webp({ lossless: true })
+      .toFile(`public/assets/textures/${name}.webp`);
+  } else await fs.writeFile(`public/assets/textures/${name}.webp`, baseTexture);
   geometry.computeBoundingBox();
   const size = geometry.boundingBox.getSize(new Vector3()).toArray();
   catalog.models[name] = {
     source: `Assets/Models/${id}.fbx`,
     texture: path.relative(project, texture),
+    ...(windowOverlay
+      ? {
+          windowEdit: overlayPath,
+          windowEditProvenance:
+            "docs/references/transport/window-edit-prompts.json",
+        }
+      : {}),
     size,
     triangles: geometry.index.count / 3,
     bytes: out.byteLength,

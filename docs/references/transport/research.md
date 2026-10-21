@@ -72,3 +72,21 @@ node scripts/test-transport-browser.mjs
 The full offline world build reapplies roadside stalls before parked vehicles.
 The browser test defaults to port 3100 and accepts GAME_TEST_URL. Exact measured
 conditions and screenshots are recorded in docs/performance/transport-results.json.
+
+## Black window edit
+
+At the user's request, the existing bus and keke runtime atlases were sent to the
+built-in ImageGen editor with instructions to change only window glass to black.
+The generated glass pixels were returned to the original 1024×1024 UV grid and
+isolated in transparent source overlay PNGs under
+`src/assets/textures/transport-window-edits/`. Original decoded pixels are retained
+outside those masks, including all yellow paint, black stripes/canopy, headlights,
+wheel hubs, mirrors and metal. Runtime WebPs use lossless encoding to avoid changing
+unmasked pixels through recompression. UVs and geometry do not change.
+
+`window-edit-verification.json` records 74,642 edited glass pixels for the bus,
+31,382 for the keke and zero changed decoded pixels outside the glass masks. The
+same result was verified after rerunning the offline `--vehicles` converter, so a
+future asset conversion retains the window edits. Exact prompts and tool mode
+are saved in `window-edit-prompts.json`. Runtime replacement files remain
+`public/assets/textures/bus.webp` and `public/assets/textures/keke.webp`.

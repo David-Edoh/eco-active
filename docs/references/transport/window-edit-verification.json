@@ -1,0 +1,96 @@
+[
+  {
+    "id": "bus",
+    "overlay": "src/assets/textures/transport-window-edits/bus.png",
+    "glassPixels": 74642,
+    "nonWindowPixelDifferences": 0,
+    "regions": [
+      [
+        1,
+        77,
+        156,
+        143
+      ],
+      [
+        40,
+        330,
+        241,
+        407
+      ],
+      [
+        641,
+        299,
+        805,
+        366
+      ],
+      [
+        829,
+        231,
+        941,
+        458
+      ],
+      [
+        946,
+        202,
+        1016,
+        350
+      ],
+      [
+        889,
+        39,
+        1022,
+        107
+      ],
+      [
+        306,
+        24,
+        412,
+        84
+      ],
+      [
+        734,
+        1,
+        797,
+        156
+      ]
+    ],
+    "outputBytes": 548902,
+    "originalAtlasSha256": "c4a7a122daf4dcbaafc94dc97663b8c4046cc948bd94652a2454427016dcdbd5",
+    "runtimeAtlasSha256": "73a8940f7d6b451c071cadc209c355d6cdb402e33c3bb77106b516db6e361075",
+    "overlaySha256": "6072e1a5e288cb3dce5915304c4fc73c3382b4dc681666a24fd6d3aa22d97ab7",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "reconversionVerified": true
+  },
+  {
+    "id": "keke",
+    "overlay": "src/assets/textures/transport-window-edits/keke.png",
+    "glassPixels": 31382,
+    "nonWindowPixelDifferences": 0,
+    "regions": [
+      [
+        527,
+        746,
+        786,
+        881
+      ],
+      [
+        19,
+        912,
+        215,
+        998
+      ]
+    ],
+    "outputBytes": 799944,
+    "originalAtlasSha256": "e5622453a0868df77d5e86980bc9fc6f76f5decbc2644c7ab1656bea0f7ecf1f",
+    "runtimeAtlasSha256": "e32de61b427f0922515a933bbc67253822a4e29e25799a062e17c0df333eb8e1",
+    "overlaySha256": "37a2cd024d37fe654a9d28b4801f96f895092aac989ff6574ff83c8bb2848d3a",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "reconversionVerified": true
+  }
+]

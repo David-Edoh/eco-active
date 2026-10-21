@@ -4,6 +4,8 @@
     "bus": {
       "source": "Assets/Models/bus.fbx",
       "texture": "Assets/Models/Textures/texture_pbr_20250901.png",
+      "windowEdit": "src/assets/textures/transport-window-edits/bus.png",
+      "windowEditProvenance": "docs/references/transport/window-edit-prompts.json",
       "size": [
         2.410876750946045,
         2.0999996413075817,
@@ -15,6 +17,8 @@
     "keke": {
       "source": "Assets/Models/keke.fbx",
       "texture": "Assets/Models/Textures/texture_pbr_20250901 2.png",
+      "windowEdit": "src/assets/textures/transport-window-edits/keke.png",
+      "windowEditProvenance": "docs/references/transport/window-edit-prompts.json",
       "size": [
         1.550898015499115,
         1.8499997668052046,
