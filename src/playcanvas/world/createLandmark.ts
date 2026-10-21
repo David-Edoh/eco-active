@@ -188,8 +188,30 @@ export function createLandmark(
     return e;
   }
 
-  sign("BROAD STREET", -7, 3.2, 21, 4, 0.8, "#214e42", "#f5eedb");
-  shape("cylinder", "Street sign post", -7, 1.6, 21, 0.08, 3.2, 0.08, green);
+  // Park-side pavement: between the fence (z ≈ 13.2) and road edge (z ≈ 16.1).
+  const streetSignX = -7;
+  const streetSignZ = 14.6;
+  sign(
+    "BROAD STREET",
+    streetSignX,
+    3.2,
+    streetSignZ,
+    4,
+    0.8,
+    "#214e42",
+    "#f5eedb",
+  );
+  shape(
+    "cylinder",
+    "Street sign post",
+    streetSignX,
+    1.6,
+    streetSignZ,
+    0.08,
+    3.2,
+    0.08,
+    green,
+  );
   const group = app.batcher.addGroup("Tinubu monument", false, 100);
   for (const r of root.findComponents("render") as RenderComponent[])
     r.batchGroupId = group.id;
