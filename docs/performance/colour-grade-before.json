@@ -1,0 +1,39 @@
+{
+  "hardware": "Apple M2",
+  "platform": "darwin",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "quality": "auto",
+  "browser": "156.0.8078.4",
+  "notes": "Headless desktop Chrome; single scene observation, not a sustained benchmark.",
+  "board": [
+    -7,
+    3.200000047683716,
+    14.600000381469727
+  ],
+  "post": [
+    -7,
+    1.600000023841858,
+    14.600000381469727
+  ],
+  "telemetry": {
+    "fps": 2,
+    "frameMs": 460.6,
+    "drawCalls": 291,
+    "shadowCalls": 78,
+    "forwardCalls": 213,
+    "triangles": 706138,
+    "chunks": 12,
+    "entities": 49,
+    "resolution": 1,
+    "players": 1,
+    "network": "online",
+    "x": -18,
+    "z": 24,
+    "heading": 0.25
+  },
+  "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+  "errors": []
+}

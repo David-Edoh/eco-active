@@ -6,6 +6,7 @@ import {
   RESOLUTION_AUTO,
   FOG_LINEAR,
   TONEMAP_ACES,
+  CameraFrame,
   SHADOW_PCF3_32F,
 } from "playcanvas";
 import { createGameWorld } from "./ecs/createGameWorld";
@@ -38,6 +39,7 @@ export class GameBootstrap {
   private streamer?: ChunkStreamer;
   private movement?: PlayerMovement;
   private camera?: CameraFollow;
+  private cameraFrame?: CameraFrame;
   private animator?: CharacterAnimator;
   private player?: GameEntity;
   private resolution: ResolutionController;
@@ -72,10 +74,11 @@ export class GameBootstrap {
     });
     this.app.setCanvasFillMode(FILLMODE_NONE);
     this.app.setCanvasResolution(RESOLUTION_AUTO);
-    this.app.scene.ambientLight = new Color(0.62, 0.7, 0.82);
-    this.app.scene.exposure = 1.15;
+    // Sunny coastal daylight: cool, readable shadows beneath warm direct light.
+    this.app.scene.ambientLight = new Color(0.46, 0.53, 0.64);
+    this.app.scene.exposure = 1.05;
     this.app.scene.fog.type = FOG_LINEAR;
-    this.app.scene.fog.color = new Color(0.64, 0.76, 0.88);
+    this.app.scene.fog.color = new Color(0.58, 0.71, 0.84);
     this.app.scene.fog.start = DISTRICT_FOG_START;
     this.app.scene.fog.end = DISTRICT_FOG_END;
     this.library = new AssetLibrary(this.app);
@@ -101,8 +104,8 @@ export class GameBootstrap {
       this.sun = sun;
       sun.addComponent("light", {
         type: "directional",
-        color: new Color(0.94, 0.97, 1),
-        intensity: 1.5,
+        color: new Color(1, 0.97, 0.91),
+        intensity: 1.7,
         castShadows: true,
         shadowDistance: 48,
         shadowResolution: matchMedia("(pointer:coarse)").matches ? 512 : 1024,
@@ -115,13 +118,27 @@ export class GameBootstrap {
       this.app.root.addChild(sun);
       const camera = new Entity("Third-person camera");
       camera.addComponent("camera", {
-        clearColor: new Color(0.64, 0.76, 0.88),
+        clearColor: new Color(0.58, 0.71, 0.84),
         fov: 60,
         nearClip: 0.1,
         farClip: DISTRICT_VIEW_DISTANCE,
         toneMapping: TONEMAP_ACES,
       });
       this.app.root.addChild(camera);
+      // Grade the rendered world, leaving the React HUD's colours unchanged.
+      // One HDR compose pass; no bloom, depth blur, SSAO or temporal history.
+      const frame = new CameraFrame(this.app, camera.camera!);
+      this.cameraFrame = frame;
+      // Preserve the canvas's existing MSAA when rendering into the HDR target.
+      frame.rendering.samples = this.app.graphicsDevice.samples;
+      frame.rendering.toneMapping = TONEMAP_ACES;
+      frame.grading.enabled = true;
+      frame.grading.contrast = 1.025;
+      frame.grading.saturation = 1.08;
+      frame.grading.tint = new Color(1, 1, 0.995);
+      frame.vignette.intensity = 0.12;
+      frame.vignette.inner = 0.65;
+      frame.update();
       this.movement = new PlayerMovement(district);
       this.camera = new CameraFollow(camera, this.movement);
       this.streamer = new ChunkStreamer(
@@ -333,6 +350,7 @@ export class GameBootstrap {
     for (const remote of this.remotes.values()) remote.entity.render?.destroy();
     this.remotes.clear();
     this.player?.render?.destroy();
+    this.cameraFrame?.destroy();
     this.library.destroy();
     this.app.destroy();
     if (

@@ -428,3 +428,21 @@ The exact built-in prompts, saved asset paths and pixel comparison are recorded
 in `docs/references/transport/window-edit-prompts.json` and
 `window-edit-verification.json`. No image generation service or source overlay
 file is needed by the running game.
+
+## Sunny coastal colour grade
+
+`GameBootstrap` balances warm direct sunlight with restrained cool ambient fill.
+The session camera uses the installed PlayCanvas `CameraFrame` HDR compose pass:
+ACES tone mapping, modest saturation/contrast, a near-neutral tint and subtle
+edge vignette. The React HUD is outside this grade. Bloom, SSAO, depth of field,
+TAA and volumetric fog stay disabled; this adds one fullscreen compose draw,
+not extra scene lights or per-frame UI state. CameraFrame owns its render targets
+and is destroyed before application teardown. Existing resolution/quality controls
+continue to set canvas size and local sun shadows. The distance fog starts at
+145m and ends at 330m, within the 340m camera clip, keeping nearby streets clearer
+while retaining the streamed district's horizon fade.
+
+The supplied afternoon HDR panorama and all original asset textures remain in use.
+The racing screenshot informs colour and light balance, not replacement geometry
+or an exact match to its sky/art assets. See `docs/performance/colour-grade-validation.md`
+for captured views, software-renderer limitations and reproduction commands.
